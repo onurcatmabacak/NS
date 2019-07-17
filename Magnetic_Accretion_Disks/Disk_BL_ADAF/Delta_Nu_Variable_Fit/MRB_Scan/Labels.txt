@@ -1,0 +1,48 @@
+  
+  
+  
+ 4U_1608_52_3.6_kpc_Sample_Fit.dat                                                                   
+ M:1.00M_{sun} R:13km B:0.55x10^8G {D}_{BL}:4.98
+ M:1.50M_{sun} R: 8km B:2.06x10^8G {D}_{BL}:5.82
+ M:1.50M_{sun} R:11km B:0.93x10^8G {D}_{BL}:4.65
+ M:2.00M_{sun} R:13km B:0.69x10^8G {D}_{BL}:5.03
+  
+  
+  
+ 4U_1608_52_4.22_kpc_Sample_Fit.dat                                                                  
+ M:1.00M_{sun} R:13km B:0.65x10^8G {D}_{BL}:4.98
+ M:1.50M_{sun} R: 8km B:2.42x10^8G {D}_{BL}:5.82
+ M:1.50M_{sun} R:11km B:1.09x10^8G {D}_{BL}:4.65
+ M:2.00M_{sun} R:13km B:0.81x10^8G {D}_{BL}:5.03
+  
+  
+  
+ 4U_1608_52_5.0_kpc_Sample_Fit.dat                                                                   
+ M:1.00M_{sun} R:13km B:0.77x10^8G {D}_{BL}:4.98
+ M:1.50M_{sun} R: 8km B:2.86x10^8G {D}_{BL}:5.82
+ M:1.50M_{sun} R:11km B:1.29x10^8G {D}_{BL}:4.65
+ M:2.00M_{sun} R:13km B:0.96x10^8G {D}_{BL}:5.03
+  
+  
+  
+ 4U_1636_54_5.5_kpc_Sample_Fit.dat                                                                   
+ M:1.00M_{sun} R:13km B:0.50x10^8G {D}_{BL}:5.73
+ M:1.50M_{sun} R: 8km B:1.88x10^8G {D}_{BL}:6.54
+ M:1.50M_{sun} R:11km B:0.85x10^8G {D}_{BL}:5.23
+ M:1.75M_{sun} R:13km B:0.60x10^8G {D}_{BL}:5.74
+  
+  
+  
+ 4U_1636_54_7.0_kpc_Sample_Fit.dat                                                                   
+ M:1.00M_{sun} R:13km B:0.63x10^8G {D}_{BL}:5.73
+ M:1.50M_{sun} R: 8km B:2.39x10^8G {D}_{BL}:6.54
+ M:1.50M_{sun} R:11km B:1.08x10^8G {D}_{BL}:5.23
+ M:1.75M_{sun} R:13km B:0.76x10^8G {D}_{BL}:5.74
+  
+  
+  
+ 4U_1728_34_4.5_kpc_Sample_Fit.dat                                                                   
+ M:1.00M_{sun} R:13km B:0.57x10^8G {D}_{BL}:5.73
+ M:1.50M_{sun} R: 8km B:2.02x10^8G {D}_{BL}:6.99
+ M:1.50M_{sun} R:11km B:1.12x10^8G {D}_{BL}:4.55
+ M:2.00M_{sun} R:13km B:0.77x10^8G {D}_{BL}:5.32

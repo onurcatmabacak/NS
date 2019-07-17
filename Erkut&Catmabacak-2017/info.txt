@@ -1,0 +1,15 @@
+conversion factors (ergs/s/cm^2)
+1 count rate / s equals to
+
+4U 1608-52      : 4.49754 x 10^-12 
+4U 1636-54      : 4.6 x 10^-12
+4U 1728-34      : 3.95 x 10^-12
+Aql X-1 Mendez  : 2.3 x 10^-12
+Aql X-1 Barret  : 1.0 x 10^-11
+
+Parallel Track fig info
+
+4U 1608-52          : 1.4 M_sun     10 km   1.0x10^8 G
+4U 1636-54          : 1.4 M_sun     10 km   1.0x10^8 G
+Aql X-1 Mendez      : 1.4 M_sun     10 km   0.3x10^8 G
+Aql X-1 Barret      : 1.4 M_sun     10 km   0.4x10^8 G

@@ -1,0 +1,1 @@
+           Mass         Radius        B_field              a              C      H_0(10^6)         r_isco       r_in_min       r_in_max          H_min          H_max

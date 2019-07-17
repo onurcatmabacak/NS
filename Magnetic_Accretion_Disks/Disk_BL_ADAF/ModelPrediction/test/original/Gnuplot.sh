@@ -1,0 +1,7 @@
+#gnuplot "4U_1608_52_3.6_kpc.gp"
+#gnuplot "4U_1608_52_4.22_kpc.gp"
+#gnuplot "4U_1608_52_5.0_kpc.gp"
+#gnuplot "4U_1636_54_5.5_kpc.gp"
+#gnuplot "4U_1636_54_7.0_kpc.gp"
+#gnuplot "4U_1728_34_4.5_kpc.gp"
+gnuplot "4_Sources_a_H0.gp"

@@ -1,0 +1,11 @@
+ 1.0-3.0 M_solar, 5-20 km yarıçaplı, 10^8 - 10^9 G manyetik alanlı
+ Dünyalar güzeli nötron yıldızlarımızın, parallel track üretecek şekilde
+ serbest parametreleri hesaplandı ve epsilon, S_A gibi parametrelere fit yapıldı
+  
+ Yapılan fitler :
+ Epsilon : f ( x ) = a * x ^ (2/7) + b * x ^ (9/7) + c * x ^ (10/7) 
+ S_A : S_A(F) = e * F + d 
+ S_A_fit : S_A_fit(F_fit) = g * F_fit + f 
+  
+  
+     Dosya ismi         Kaynak            Tip  Mass(M_solar)     Radius(cm)  Mag Field (G)            abl              a              b              c      ChiSquare              d              e              f              g
