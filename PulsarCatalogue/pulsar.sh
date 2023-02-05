@@ -105,7 +105,5 @@
 #CO	CO or ONeMg White Dwarf
 #He	Helium White Dwarf
 #UL	Ultra-light companion or planet (mass < 0.08 solar masses)
-
-$HOME/psrcat_tar/psrcat -db_file $HOME/psrcat_tar/psrcat.db -c "name jname p0 p1 pb bincomp minmass medmass age bsurf edot p1_i age_i bsurf_i" -l "p0 < 0.03" $i > $HOME/pulsar.txt
-gnuplot "pulsar.gp"
-
+ROOT=/home/onur/Dev/HEAL/PulsarCatalogue
+$ROOT/psrcat_tar/psrcat -db_file $ROOT/psrcat_tar/psrcat.db -c "name jname p0 p1 p1_i pb bincomp minmass medmass age ag_i bsurf bsurf_i edot r_lum r_lum14 c1 c2" -c1 "r_lum / edot * 3.81e34" -c2 "r_lum14 / edot * 1.33e35" -l "(c1 >= 0.1) || (c2 >= 0.1)" > $ROOT/pulsar_mhe.txt

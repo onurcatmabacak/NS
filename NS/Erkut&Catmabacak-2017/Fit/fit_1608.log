@@ -1,0 +1,40 @@
+FIT:    data read from '1608-52_DNu_Nu1.dat' using 1:2:($3-$4)/2.0 yerrors
+        format = x:z:s
+        x range restricted to [400.000 : 1000.00]
+        #datapoints = 13
+function used for fitting: f(x)
+	f(x)=y0+sqrt(2/pi)*A1/w1*exp(-2*(x-xc1)**2/w1**2)+sqrt(2/pi)*A2/w2*exp(-2*(x-xc2)**2/w2**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   y0            A1            w1            xc1           A2            w2            xc2          
+   0 2.0209620642e+00   0.00e+00  2.04e+01    1.178635e+02   2.159946e+05   8.152595e+02   3.954953e+02   3.906015e+03   6.392655e+01   7.174730e+02
+   1 2.0209595895e+00  -1.22e-01  2.04e+00    1.178629e+02   2.159931e+05   8.152629e+02   3.954938e+02   3.906011e+03   6.392650e+01   7.174730e+02
+
+After 1 iterations the fit converged.
+final sum of squares of residuals : 2.02096
+rel. change during last iteration : -1.2245e-06
+
+degrees of freedom    (FIT_NDF)                        : 6
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 0.580368
+variance of residuals (reduced chisquare) = WSSR/ndf   : 0.336827
+p-value of the Chisq distribution (FIT_P)              : 0.917761
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+y0              = 117.863          +/- 319.1        (270.7%)
+A1              = 215993           +/- 6.168e+05    (285.6%)
+w1              = 815.263          +/- 1064         (130.5%)
+xc1             = 395.494          +/- 139.2        (35.2%)
+A2              = 3906.01          +/- 1123         (28.76%)
+w2              = 63.9265          +/- 12.61        (19.73%)
+xc2             = 717.473          +/- 4.277        (0.5961%)
+
+correlation matrix of the fit parameters:
+                y0     A1     w1     xc1    A2     w2     xc2    
+y0              1.000 
+A1             -0.999  1.000 
+w1             -0.997  0.999  1.000 
+xc1             0.958 -0.968 -0.975  1.000 
+A2              0.844 -0.847 -0.851  0.804  1.000 
+w2              0.715 -0.720 -0.725  0.690  0.834  1.000 
+xc2             0.328 -0.341 -0.352  0.388  0.318  0.342  1.000 

@@ -1,0 +1,5 @@
+Move all files to $HOME/ folder, open terminal and run ./PulsarCatalogue.sh command that will do the installation.
+Atthe end of installation you will receive an example output of pname and period of pulsars that have
+periods above 3 seconds. Now you can use pulsar catalogue by running ./pulsar.sh command. 
+Instructions of how to use the catalogue is in pulsar.sh file. You can edit pulsar.gp file anyway you want.
+You may read $HOME/psrcat_tar/README for further details.

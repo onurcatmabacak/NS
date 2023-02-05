@@ -1,0 +1,3275 @@
+%!PS-Adobe-2.0 EPSF-2.0
+%%Title: 4U_1636_54_7.0_kpc_4.eps
+%%Creator: gnuplot 5.0 patchlevel 3
+%%CreationDate: Sun Apr  2 18:29:02 2017
+%%DocumentFonts: (atend)
+%%BoundingBox: 50 50 687 496
+%%EndComments
+%%BeginProlog
+/gnudict 256 dict def
+gnudict begin
+%
+% The following true/false flags may be edited by hand if desired.
+% The unit line width and grayscale image gamma correction may also be changed.
+%
+/Color false def
+/Blacktext false def
+/Solid false def
+/Dashlength 1 def
+/Landscape false def
+/Level1 false def
+/Level3 false def
+/Rounded false def
+/ClipToBoundingBox false def
+/SuppressPDFMark false def
+/TransparentPatterns false def
+/gnulinewidth 5.000 def
+/userlinewidth gnulinewidth def
+/Gamma 1.0 def
+/BackgroundColor {-1.000 -1.000 -1.000} def
+%
+/vshift -66 def
+/dl1 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul sub dup 0 le { pop 0.01 } if } if
+} def
+/dl2 {
+  10.0 Dashlength userlinewidth gnulinewidth div mul mul mul
+  Rounded { currentlinewidth 0.75 mul add } if
+} def
+/hpt_ 31.5 def
+/vpt_ 31.5 def
+/hpt hpt_ def
+/vpt vpt_ def
+/doclip {
+  ClipToBoundingBox {
+    newpath 50 50 moveto 687 50 lineto 687 496 lineto 50 496 lineto closepath
+    clip
+  } if
+} def
+%
+% Gnuplot Prolog Version 5.1 (Oct 2015)
+%
+%/SuppressPDFMark true def
+%
+/M {moveto} bind def
+/L {lineto} bind def
+/R {rmoveto} bind def
+/V {rlineto} bind def
+/N {newpath moveto} bind def
+/Z {closepath} bind def
+/C {setrgbcolor} bind def
+/f {rlineto fill} bind def
+/g {setgray} bind def
+/Gshow {show} def   % May be redefined later in the file to support UTF-8
+/vpt2 vpt 2 mul def
+/hpt2 hpt 2 mul def
+/Lshow {currentpoint stroke M 0 vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Rshow {currentpoint stroke M dup stringwidth pop neg vshift R
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/Cshow {currentpoint stroke M dup stringwidth pop -2 div vshift R 
+	Blacktext {gsave 0 setgray textshow grestore} {textshow} ifelse} def
+/UP {dup vpt_ mul /vpt exch def hpt_ mul /hpt exch def
+  /hpt2 hpt 2 mul def /vpt2 vpt 2 mul def} def
+/DL {Color {setrgbcolor Solid {pop []} if 0 setdash}
+ {pop pop pop 0 setgray Solid {pop []} if 0 setdash} ifelse} def
+/BL {stroke userlinewidth 2 mul setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/AL {stroke userlinewidth 2 div setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+/UL {dup gnulinewidth mul /userlinewidth exch def
+	dup 1 lt {pop 1} if 10 mul /udl exch def} def
+/PL {stroke userlinewidth setlinewidth
+	Rounded {1 setlinejoin 1 setlinecap} if} def
+3.8 setmiterlimit
+% Classic Line colors (version 5.0)
+/LCw {1 1 1} def
+/LCb {0 0 0} def
+/LCa {0 0 0} def
+/LC0 {1 0 0} def
+/LC1 {0 1 0} def
+/LC2 {0 0 1} def
+/LC3 {1 0 1} def
+/LC4 {0 1 1} def
+/LC5 {1 1 0} def
+/LC6 {0 0 0} def
+/LC7 {1 0.3 0} def
+/LC8 {0.5 0.5 0.5} def
+% Default dash patterns (version 5.0)
+/LTB {BL [] LCb DL} def
+/LTw {PL [] 1 setgray} def
+/LTb {PL [] LCb DL} def
+/LTa {AL [1 udl mul 2 udl mul] 0 setdash LCa setrgbcolor} def
+/LT0 {PL [] LC0 DL} def
+/LT1 {PL [2 dl1 3 dl2] LC1 DL} def
+/LT2 {PL [1 dl1 1.5 dl2] LC2 DL} def
+/LT3 {PL [6 dl1 2 dl2 1 dl1 2 dl2] LC3 DL} def
+/LT4 {PL [1 dl1 2 dl2 6 dl1 2 dl2 1 dl1 2 dl2] LC4 DL} def
+/LT5 {PL [4 dl1 2 dl2] LC5 DL} def
+/LT6 {PL [1.5 dl1 1.5 dl2 1.5 dl1 1.5 dl2 1.5 dl1 6 dl2] LC6 DL} def
+/LT7 {PL [3 dl1 3 dl2 1 dl1 3 dl2] LC7 DL} def
+/LT8 {PL [2 dl1 2 dl2 2 dl1 6 dl2] LC8 DL} def
+/SL {[] 0 setdash} def
+/Pnt {stroke [] 0 setdash gsave 1 setlinecap M 0 0 V stroke grestore} def
+/Dia {stroke [] 0 setdash 2 copy vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke
+  Pnt} def
+/Pls {stroke [] 0 setdash vpt sub M 0 vpt2 V
+  currentpoint stroke M
+  hpt neg vpt neg R hpt2 0 V stroke
+ } def
+/Box {stroke [] 0 setdash 2 copy exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke
+  Pnt} def
+/Crs {stroke [] 0 setdash exch hpt sub exch vpt add M
+  hpt2 vpt2 neg V currentpoint stroke M
+  hpt2 neg 0 R hpt2 vpt2 V stroke} def
+/TriU {stroke [] 0 setdash 2 copy vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke
+  Pnt} def
+/Star {2 copy Pls Crs} def
+/BoxF {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath fill} def
+/TriUF {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath fill} def
+/TriD {stroke [] 0 setdash 2 copy vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke
+  Pnt} def
+/TriDF {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath fill} def
+/DiaF {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath fill} def
+/Pent {stroke [] 0 setdash 2 copy gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore Pnt} def
+/PentF {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath fill grestore} def
+/Circle {stroke [] 0 setdash 2 copy
+  hpt 0 360 arc stroke Pnt} def
+/CircleF {stroke [] 0 setdash hpt 0 360 arc fill} def
+/C0 {BL [] 0 setdash 2 copy moveto vpt 90 450 arc} bind def
+/C1 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C2 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C3 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C4 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C5 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc
+	2 copy moveto
+	2 copy vpt 180 270 arc closepath fill
+	vpt 0 360 arc} bind def
+/C6 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C7 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 270 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C8 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C9 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 270 450 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C10 {BL [] 0 setdash 2 copy 2 copy moveto vpt 270 360 arc closepath fill
+	2 copy moveto
+	2 copy vpt 90 180 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C11 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 180 arc closepath fill
+	2 copy moveto
+	2 copy vpt 270 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C12 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C13 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 0 90 arc closepath fill
+	2 copy moveto
+	2 copy vpt 180 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/C14 {BL [] 0 setdash 2 copy moveto
+	2 copy vpt 90 360 arc closepath fill
+	vpt 0 360 arc} bind def
+/C15 {BL [] 0 setdash 2 copy vpt 0 360 arc closepath fill
+	vpt 0 360 arc closepath} bind def
+/Rec {newpath 4 2 roll moveto 1 index 0 rlineto 0 exch rlineto
+	neg 0 rlineto closepath} bind def
+/Square {dup Rec} bind def
+/Bsquare {vpt sub exch vpt sub exch vpt2 Square} bind def
+/S0 {BL [] 0 setdash 2 copy moveto 0 vpt rlineto BL Bsquare} bind def
+/S1 {BL [] 0 setdash 2 copy vpt Square fill Bsquare} bind def
+/S2 {BL [] 0 setdash 2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S3 {BL [] 0 setdash 2 copy exch vpt sub exch vpt2 vpt Rec fill Bsquare} bind def
+/S4 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S5 {BL [] 0 setdash 2 copy 2 copy vpt Square fill
+	exch vpt sub exch vpt sub vpt Square fill Bsquare} bind def
+/S6 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S7 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt vpt2 Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S8 {BL [] 0 setdash 2 copy vpt sub vpt Square fill Bsquare} bind def
+/S9 {BL [] 0 setdash 2 copy vpt sub vpt vpt2 Rec fill Bsquare} bind def
+/S10 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt Square fill
+	Bsquare} bind def
+/S11 {BL [] 0 setdash 2 copy vpt sub vpt Square fill 2 copy exch vpt sub exch vpt2 vpt Rec fill
+	Bsquare} bind def
+/S12 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill Bsquare} bind def
+/S13 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy vpt Square fill Bsquare} bind def
+/S14 {BL [] 0 setdash 2 copy exch vpt sub exch vpt sub vpt2 vpt Rec fill
+	2 copy exch vpt sub exch vpt Square fill Bsquare} bind def
+/S15 {BL [] 0 setdash 2 copy Bsquare fill Bsquare} bind def
+/D0 {gsave translate 45 rotate 0 0 S0 stroke grestore} bind def
+/D1 {gsave translate 45 rotate 0 0 S1 stroke grestore} bind def
+/D2 {gsave translate 45 rotate 0 0 S2 stroke grestore} bind def
+/D3 {gsave translate 45 rotate 0 0 S3 stroke grestore} bind def
+/D4 {gsave translate 45 rotate 0 0 S4 stroke grestore} bind def
+/D5 {gsave translate 45 rotate 0 0 S5 stroke grestore} bind def
+/D6 {gsave translate 45 rotate 0 0 S6 stroke grestore} bind def
+/D7 {gsave translate 45 rotate 0 0 S7 stroke grestore} bind def
+/D8 {gsave translate 45 rotate 0 0 S8 stroke grestore} bind def
+/D9 {gsave translate 45 rotate 0 0 S9 stroke grestore} bind def
+/D10 {gsave translate 45 rotate 0 0 S10 stroke grestore} bind def
+/D11 {gsave translate 45 rotate 0 0 S11 stroke grestore} bind def
+/D12 {gsave translate 45 rotate 0 0 S12 stroke grestore} bind def
+/D13 {gsave translate 45 rotate 0 0 S13 stroke grestore} bind def
+/D14 {gsave translate 45 rotate 0 0 S14 stroke grestore} bind def
+/D15 {gsave translate 45 rotate 0 0 S15 stroke grestore} bind def
+/DiaE {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V closepath stroke} def
+/BoxE {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V closepath stroke} def
+/TriUE {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V closepath stroke} def
+/TriDE {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V closepath stroke} def
+/PentE {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  closepath stroke grestore} def
+/CircE {stroke [] 0 setdash 
+  hpt 0 360 arc stroke} def
+/Opaque {gsave closepath 1 setgray fill grestore 0 setgray closepath} def
+/DiaW {stroke [] 0 setdash vpt add M
+  hpt neg vpt neg V hpt vpt neg V
+  hpt vpt V hpt neg vpt V Opaque stroke} def
+/BoxW {stroke [] 0 setdash exch hpt sub exch vpt add M
+  0 vpt2 neg V hpt2 0 V 0 vpt2 V
+  hpt2 neg 0 V Opaque stroke} def
+/TriUW {stroke [] 0 setdash vpt 1.12 mul add M
+  hpt neg vpt -1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt 1.62 mul V Opaque stroke} def
+/TriDW {stroke [] 0 setdash vpt 1.12 mul sub M
+  hpt neg vpt 1.62 mul V
+  hpt 2 mul 0 V
+  hpt neg vpt -1.62 mul V Opaque stroke} def
+/PentW {stroke [] 0 setdash gsave
+  translate 0 hpt M 4 {72 rotate 0 hpt L} repeat
+  Opaque stroke grestore} def
+/CircW {stroke [] 0 setdash 
+  hpt 0 360 arc Opaque stroke} def
+/BoxFill {gsave Rec 1 setgray fill grestore} def
+/Density {
+  /Fillden exch def
+  currentrgbcolor
+  /ColB exch def /ColG exch def /ColR exch def
+  /ColR ColR Fillden mul Fillden sub 1 add def
+  /ColG ColG Fillden mul Fillden sub 1 add def
+  /ColB ColB Fillden mul Fillden sub 1 add def
+  ColR ColG ColB setrgbcolor} def
+/BoxColFill {gsave Rec PolyFill} def
+/PolyFill {gsave Density fill grestore grestore} def
+/h {rlineto rlineto rlineto gsave closepath fill grestore} bind def
+%
+% PostScript Level 1 Pattern Fill routine for rectangles
+% Usage: x y w h s a XX PatternFill
+%	x,y = lower left corner of box to be filled
+%	w,h = width and height of box
+%	  a = angle in degrees between lines and x-axis
+%	 XX = 0/1 for no/yes cross-hatch
+%
+/PatternFill {gsave /PFa [ 9 2 roll ] def
+  PFa 0 get PFa 2 get 2 div add PFa 1 get PFa 3 get 2 div add translate
+  PFa 2 get -2 div PFa 3 get -2 div PFa 2 get PFa 3 get Rec
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+  clip
+  currentlinewidth 0.5 mul setlinewidth
+  /PFs PFa 2 get dup mul PFa 3 get dup mul add sqrt def
+  0 0 M PFa 5 get rotate PFs -2 div dup translate
+  0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 M 0 PFs V} for
+  0 PFa 6 get ne {
+	0 1 PFs PFa 4 get div 1 add floor cvi
+	{PFa 4 get mul 0 2 1 roll M PFs 0 V} for
+ } if
+  stroke grestore} def
+%
+/languagelevel where
+ {pop languagelevel} {1} ifelse
+dup 2 lt
+	{/InterpretLevel1 true def
+	 /InterpretLevel3 false def}
+	{/InterpretLevel1 Level1 def
+	 2 gt
+	    {/InterpretLevel3 Level3 def}
+	    {/InterpretLevel3 false def}
+	 ifelse }
+ ifelse
+%
+% PostScript level 2 pattern fill definitions
+%
+/Level2PatternFill {
+/Tile8x8 {/PaintType 2 /PatternType 1 /TilingType 1 /BBox [0 0 8 8] /XStep 8 /YStep 8}
+	bind def
+/KeepColor {currentrgbcolor [/Pattern /DeviceRGB] setcolorspace} bind def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke} 
+>> matrix makepattern
+/Pat1 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 8 8 L 0 8 M 8 0 L stroke
+	0 4 M 4 8 L 8 4 L 4 0 L 0 4 L stroke}
+>> matrix makepattern
+/Pat2 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 0 M 0 8 L
+	8 8 L 8 0 L 0 0 L fill}
+>> matrix makepattern
+/Pat3 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 8 M 8 -4 L
+	0 12 M 12 0 L stroke}
+>> matrix makepattern
+/Pat4 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -4 0 M 8 12 L
+	0 -4 M 12 8 L stroke}
+>> matrix makepattern
+/Pat5 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 8 M 4 -4 L
+	0 12 M 8 -4 L 4 12 M 10 0 L stroke}
+>> matrix makepattern
+/Pat6 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop -2 0 M 4 12 L
+	0 -4 M 8 12 L 4 -4 M 10 8 L stroke}
+>> matrix makepattern
+/Pat7 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 8 -2 M -4 4 L
+	12 0 M -4 8 L 12 4 M 0 10 L stroke}
+>> matrix makepattern
+/Pat8 exch def
+<< Tile8x8
+ /PaintProc {0.5 setlinewidth pop 0 -2 M 12 4 L
+	-4 0 M 12 8 L -4 4 M 8 10 L stroke}
+>> matrix makepattern
+/Pat9 exch def
+/Pattern1 {PatternBgnd KeepColor Pat1 setpattern} bind def
+/Pattern2 {PatternBgnd KeepColor Pat2 setpattern} bind def
+/Pattern3 {PatternBgnd KeepColor Pat3 setpattern} bind def
+/Pattern4 {PatternBgnd KeepColor Landscape {Pat5} {Pat4} ifelse setpattern} bind def
+/Pattern5 {PatternBgnd KeepColor Landscape {Pat4} {Pat5} ifelse setpattern} bind def
+/Pattern6 {PatternBgnd KeepColor Landscape {Pat9} {Pat6} ifelse setpattern} bind def
+/Pattern7 {PatternBgnd KeepColor Landscape {Pat8} {Pat7} ifelse setpattern} bind def
+} def
+%
+%
+%End of PostScript Level 2 code
+%
+/PatternBgnd {
+  TransparentPatterns {} {gsave 1 setgray fill grestore} ifelse
+} def
+%
+% Substitute for Level 2 pattern fill codes with
+% grayscale if Level 2 support is not selected.
+%
+/Level1PatternFill {
+/Pattern1 {0.250 Density} bind def
+/Pattern2 {0.500 Density} bind def
+/Pattern3 {0.750 Density} bind def
+/Pattern4 {0.125 Density} bind def
+/Pattern5 {0.375 Density} bind def
+/Pattern6 {0.625 Density} bind def
+/Pattern7 {0.875 Density} bind def
+} def
+%
+% Now test for support of Level 2 code
+%
+Level1 {Level1PatternFill} {Level2PatternFill} ifelse
+%
+/Symbol-Oblique /Symbol findfont [1 0 .167 1 0 0] makefont
+dup length dict begin {1 index /FID eq {pop pop} {def} ifelse} forall
+currentdict end definefont pop
+%
+%
+% Encoding for ISO-8859-1 (also called Latin1)
+%
+/reencodeISO {
+dup dup findfont dup length dict begin
+{ 1 index /FID ne { def }{ pop pop } ifelse } forall
+currentdict /CharStrings known {
+	CharStrings /Idieresis known {
+		/Encoding ISOLatin1Encoding def } if
+} if
+currentdict end definefont
+} def
+/ISOLatin1Encoding [
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/space/exclam/quotedbl/numbersign/dollar/percent/ampersand/quoteright
+/parenleft/parenright/asterisk/plus/comma/minus/period/slash
+/zero/one/two/three/four/five/six/seven/eight/nine/colon/semicolon
+/less/equal/greater/question/at/A/B/C/D/E/F/G/H/I/J/K/L/M/N
+/O/P/Q/R/S/T/U/V/W/X/Y/Z/bracketleft/backslash/bracketright
+/asciicircum/underscore/quoteleft/a/b/c/d/e/f/g/h/i/j/k/l/m
+/n/o/p/q/r/s/t/u/v/w/x/y/z/braceleft/bar/braceright/asciitilde
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef/.notdef
+/.notdef/dotlessi/grave/acute/circumflex/tilde/macron/breve
+/dotaccent/dieresis/.notdef/ring/cedilla/.notdef/hungarumlaut
+/ogonek/caron/space/exclamdown/cent/sterling/currency/yen/brokenbar
+/section/dieresis/copyright/ordfeminine/guillemotleft/logicalnot
+/hyphen/registered/macron/degree/plusminus/twosuperior/threesuperior
+/acute/mu/paragraph/periodcentered/cedilla/onesuperior/ordmasculine
+/guillemotright/onequarter/onehalf/threequarters/questiondown
+/Agrave/Aacute/Acircumflex/Atilde/Adieresis/Aring/AE/Ccedilla
+/Egrave/Eacute/Ecircumflex/Edieresis/Igrave/Iacute/Icircumflex
+/Idieresis/Eth/Ntilde/Ograve/Oacute/Ocircumflex/Otilde/Odieresis
+/multiply/Oslash/Ugrave/Uacute/Ucircumflex/Udieresis/Yacute
+/Thorn/germandbls/agrave/aacute/acircumflex/atilde/adieresis
+/aring/ae/ccedilla/egrave/eacute/ecircumflex/edieresis/igrave
+/iacute/icircumflex/idieresis/eth/ntilde/ograve/oacute/ocircumflex
+/otilde/odieresis/divide/oslash/ugrave/uacute/ucircumflex/udieresis
+/yacute/thorn/ydieresis
+] def
+/MFshow {
+   { dup 5 get 3 ge
+     { 5 get 3 eq {gsave} {grestore} ifelse }
+     {dup dup 0 get findfont exch 1 get scalefont setfont
+     [ currentpoint ] exch dup 2 get 0 exch R dup 5 get 2 ne {dup dup 6
+     get exch 4 get {textshow} {stringwidth pop 0 R} ifelse }if dup 5 get 0 eq
+     {dup 3 get {2 get neg 0 exch R pop} {pop aload pop M} ifelse} {dup 5
+     get 1 eq {dup 2 get exch dup 3 get exch 6 get stringwidth pop -2 div
+     dup 0 R} {dup 6 get stringwidth pop -2 div 0 R 6 get
+     textshow 2 index {aload pop M neg 3 -1 roll neg R pop pop} {pop pop pop
+     pop aload pop M} ifelse }ifelse }ifelse }
+     ifelse }
+   forall} def
+/Gswidth {dup type /stringtype eq {stringwidth} {pop (n) stringwidth} ifelse} def
+/MFwidth {0 exch { dup 5 get 3 ge { 5 get 3 eq { 0 } { pop } ifelse }
+ {dup 3 get{dup dup 0 get findfont exch 1 get scalefont setfont
+     6 get Gswidth pop add} {pop} ifelse} ifelse} forall} def
+/MLshow { currentpoint stroke M
+  0 exch R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MRshow { currentpoint stroke M
+  exch dup MFwidth neg 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/MCshow { currentpoint stroke M
+  exch dup MFwidth -2 div 3 -1 roll R
+  Blacktext {gsave 0 setgray MFshow grestore} {MFshow} ifelse } bind def
+/XYsave    { [( ) 1 2 true false 3 ()] } bind def
+/XYrestore { [( ) 1 2 true false 4 ()] } bind def
+/Helvetica reencodeISO def
+Level1 SuppressPDFMark or 
+{} {
+/SDict 10 dict def
+systemdict /pdfmark known not {
+  userdict /pdfmark systemdict /cleartomark get put
+} if
+SDict begin [
+  /Title (4U_1636_54_7.0_kpc_4.eps)
+  /Subject (gnuplot plot)
+  /Creator (gnuplot 5.0 patchlevel 3)
+  /Author (onur)
+%  /Producer (gnuplot)
+%  /Keywords ()
+  /CreationDate (Sun Apr  2 18:29:02 2017)
+  /DOCINFO pdfmark
+end
+} ifelse
+%
+% Support for boxed text - Ethan A Merritt May 2005
+%
+/InitTextBox { userdict /TBy2 3 -1 roll put userdict /TBx2 3 -1 roll put
+           userdict /TBy1 3 -1 roll put userdict /TBx1 3 -1 roll put
+	   /Boxing true def } def
+/ExtendTextBox { Boxing
+    { gsave dup false charpath pathbbox
+      dup TBy2 gt {userdict /TBy2 3 -1 roll put} {pop} ifelse
+      dup TBx2 gt {userdict /TBx2 3 -1 roll put} {pop} ifelse
+      dup TBy1 lt {userdict /TBy1 3 -1 roll put} {pop} ifelse
+      dup TBx1 lt {userdict /TBx1 3 -1 roll put} {pop} ifelse
+      grestore } if } def
+/PopTextBox { newpath TBx1 TBxmargin sub TBy1 TBymargin sub M
+               TBx1 TBxmargin sub TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy2 TBymargin add L
+	       TBx2 TBxmargin add TBy1 TBymargin sub L closepath } def
+/DrawTextBox { PopTextBox stroke /Boxing false def} def
+/FillTextBox { gsave PopTextBox 1 1 1 setrgbcolor fill grestore /Boxing false def} def
+0 0 0 0 InitTextBox
+/TBxmargin 20 def
+/TBymargin 20 def
+/Boxing false def
+/textshow { ExtendTextBox Gshow } def
+%
+% redundant definitions for compatibility with prologue.ps older than 5.0.2
+/LTB {BL [] LCb DL} def
+/LTb {PL [] LCb DL} def
+end
+%%EndProlog
+%%Page: 1 1
+gnudict begin
+gsave
+doclip
+50 50 translate
+0.050 0.050 scale
+0 setgray
+newpath
+(Helvetica) findfont 200 scalefont setfont
+BackgroundColor 0 lt 3 1 roll 0 lt exch 0 lt or or not {BackgroundColor C 1.000 0 0 12744.00 8920.80 BoxColFill} if
+1.000 UL
+LTb
+LCb setrgbcolor
+1080 5796 M
+63 0 V
+stroke
+960 5796 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.25)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1080 6803 M
+63 0 V
+stroke
+960 6803 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.3)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1080 7811 M
+63 0 V
+stroke
+960 7811 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.35)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+2232 4788 M
+0 63 V
+0 3967 R
+0 -63 V
+stroke
+2232 4588 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.1)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+3384 4788 M
+0 63 V
+0 3967 R
+0 -63 V
+stroke
+3384 4588 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.2)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+4535 4788 M
+0 63 V
+0 3967 R
+0 -63 V
+stroke
+4535 4588 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.3)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5687 4788 M
+0 63 V
+0 3967 R
+0 -63 V
+stroke
+5687 4588 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.4)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+1080 8818 N
+0 -4030 V
+5759 0 V
+0 4030 V
+-5759 0 V
+Z stroke
+1.000 UP
+LCb setrgbcolor
+1195 8415 M
+[ [(Helvetica) 200.0 0.0 true true 0 (M=1 M)]
+[(Helvetica) 120.0 -60.0 true true 0 (O)]
+[(Helvetica) -64.0 -60.0 true false 0 (O)]
+[(Helvetica) 120.0 -60.0 true true 0 (�)]
+[(Helvetica) 200.0 0.0 true true 0 (     R=13 km     B=0.63x10)]
+[(Helvetica) 160.0 100.0 true true 0 (8)]
+[(Helvetica) 200.0 0.0 true true 0 ( G     )]
+[(Helvetica) 200.0 0.0 true true 0 (D)]
+[(Helvetica) 160.0 -60.0 true true 0 (BL)]
+[(Helvetica) 200.0 0.0 true true 0 (=5.73)]
+] -66.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+260 6803 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ /Symbol reencodeISO def
+[(Symbol) 300.0 0.0 true true 0 (Dn)]
+[(Helvetica) 300.0 0.0 true true 0 ( \(1000 Hz\))]
+] -100.0 MCshow
+grestore
+LTb
+% Begin plot #1
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+1582 6759 CircleF
+1449 7279 CircleF
+2243 6006 CircleF
+2581 5690 CircleF
+2612 5474 CircleF
+2293 6565 CircleF
+2588 5994 CircleF
+1779 7555 CircleF
+2830 5779 CircleF
+2651 6184 CircleF
+2472 6017 CircleF
+2771 6261 CircleF
+2759 5726 CircleF
+2469 6999 CircleF
+2222 7466 CircleF
+2793 6508 CircleF
+2424 7327 CircleF
+2821 6695 CircleF
+2837 6249 CircleF
+2938 5462 CircleF
+2944 6741 CircleF
+3013 6324 CircleF
+2830 5973 CircleF
+2984 5757 CircleF
+2632 7721 CircleF
+3114 6713 CircleF
+2909 5765 CircleF
+2944 7539 CircleF
+3135 6094 CircleF
+3161 6962 CircleF
+3034 5590 CircleF
+3035 5859 CircleF
+3069 5617 CircleF
+2960 7632 CircleF
+3367 6534 CircleF
+2900 7637 CircleF
+3123 5681 CircleF
+3395 5927 CircleF
+3507 6098 CircleF
+3140 5815 CircleF
+3526 5950 CircleF
+3386 6058 CircleF
+3613 6033 CircleF
+3397 5532 CircleF
+3658 5607 CircleF
+3807 6184 CircleF
+4111 7298 CircleF
+4425 7392 CircleF
+3870 6132 CircleF
+3773 5827 CircleF
+3839 5886 CircleF
+4635 5612 CircleF
+4663 5690 CircleF
+4651 5874 CircleF
+4778 5891 CircleF
+4695 5762 CircleF
+4746 5755 CircleF
+4776 6011 CircleF
+4720 5546 CircleF
+4642 5705 CircleF
+4602 5695 CircleF
+4638 5566 CircleF
+4758 5831 CircleF
+4854 5935 CircleF
+4778 5875 CircleF
+4734 5947 CircleF
+4711 5826 CircleF
+4681 5678 CircleF
+4824 5664 CircleF
+4852 5965 CircleF
+4624 5446 CircleF
+4768 5951 CircleF
+4722 5567 CircleF
+4832 5662 CircleF
+4636 5815 CircleF
+4861 5952 CircleF
+4648 5795 CircleF
+4706 5528 CircleF
+4621 5785 CircleF
+4665 5542 CircleF
+4780 5804 CircleF
+4630 5751 CircleF
+4755 5723 CircleF
+4843 5771 CircleF
+4711 5507 CircleF
+4619 5837 CircleF
+4898 6079 CircleF
+4573 5704 CircleF
+4601 5793 CircleF
+4730 5664 CircleF
+4756 5488 CircleF
+4657 5985 CircleF
+4767 5963 CircleF
+4717 5477 CircleF
+4772 5731 CircleF
+4744 5871 CircleF
+4705 5462 CircleF
+4752 5994 CircleF
+4690 5459 CircleF
+4600 5756 CircleF
+4780 5842 CircleF
+4588 5598 CircleF
+4849 5697 CircleF
+4737 5915 CircleF
+4613 5530 CircleF
+4668 5726 CircleF
+4605 5523 CircleF
+4627 5779 CircleF
+4628 6022 CircleF
+4558 5446 CircleF
+4804 5914 CircleF
+4540 5499 CircleF
+4608 5798 CircleF
+4676 6008 CircleF
+4565 5583 CircleF
+4591 5966 CircleF
+4731 5725 CircleF
+4778 5604 CircleF
+4694 5555 CircleF
+4634 5844 CircleF
+4630 6014 CircleF
+4641 5893 CircleF
+4657 5895 CircleF
+4659 5843 CircleF
+4576 5561 CircleF
+4610 5653 CircleF
+4582 5528 CircleF
+4652 5831 CircleF
+4690 5811 CircleF
+4659 5866 CircleF
+4985 5864 CircleF
+5022 6136 CircleF
+5034 6021 CircleF
+5039 6130 CircleF
+4669 5509 CircleF
+4651 5495 CircleF
+4694 5632 CircleF
+5037 6030 CircleF
+4971 6076 CircleF
+4984 5825 CircleF
+4975 5801 CircleF
+4902 5642 CircleF
+5031 6079 CircleF
+4931 5749 CircleF
+4719 5911 CircleF
+5032 5974 CircleF
+5038 5708 CircleF
+5000 5917 CircleF
+4959 5835 CircleF
+4955 5736 CircleF
+4881 5534 CircleF
+4704 5746 CircleF
+4901 5572 CircleF
+4984 5723 CircleF
+4966 5693 CircleF
+4956 6089 CircleF
+4900 5541 CircleF
+5007 5777 CircleF
+4953 5773 CircleF
+5008 6062 CircleF
+5026 5954 CircleF
+5016 6039 CircleF
+4976 6082 CircleF
+4893 5704 CircleF
+4637 5444 CircleF
+5015 5963 CircleF
+4758 5566 CircleF
+4727 5528 CircleF
+4978 5887 CircleF
+4972 5979 CircleF
+4967 6065 CircleF
+4838 5956 CircleF
+4988 5860 CircleF
+5062 5953 CircleF
+5041 5981 CircleF
+4840 5862 CircleF
+4761 5710 CircleF
+4887 5532 CircleF
+4952 5579 CircleF
+4964 5859 CircleF
+4938 5963 CircleF
+4998 5961 CircleF
+4807 5877 CircleF
+4995 5739 CircleF
+4671 5573 CircleF
+5041 6114 CircleF
+5039 5754 CircleF
+4954 5906 CircleF
+4955 6020 CircleF
+4765 5527 CircleF
+4992 5648 CircleF
+4932 5726 CircleF
+4980 5753 CircleF
+4940 5656 CircleF
+4693 5727 CircleF
+4870 5590 CircleF
+4784 5680 CircleF
+4998 5935 CircleF
+5046 6105 CircleF
+4922 5627 CircleF
+4785 5762 CircleF
+4944 5864 CircleF
+5064 6143 CircleF
+4740 5963 CircleF
+5087 6049 CircleF
+5030 6082 CircleF
+5034 5843 CircleF
+4976 6008 CircleF
+4965 6046 CircleF
+4670 5657 CircleF
+4773 5503 CircleF
+4782 5598 CircleF
+4987 5943 CircleF
+5009 6020 CircleF
+4904 5785 CircleF
+4955 6060 CircleF
+4646 5478 CircleF
+5058 6150 CircleF
+4926 5642 CircleF
+5037 5932 CircleF
+4807 5812 CircleF
+5044 6155 CircleF
+5079 6092 CircleF
+4769 5733 CircleF
+4968 5994 CircleF
+4766 5648 CircleF
+4981 5930 CircleF
+4986 5899 CircleF
+4944 5825 CircleF
+5087 6107 CircleF
+5031 5860 CircleF
+4970 5922 CircleF
+4969 5721 CircleF
+5041 6005 CircleF
+4996 5786 CircleF
+4924 5840 CircleF
+4696 5610 CircleF
+4719 5788 CircleF
+4921 6049 CircleF
+4917 5853 CircleF
+4691 5499 CircleF
+5051 5981 CircleF
+4640 5545 CircleF
+4721 5865 CircleF
+4990 5932 CircleF
+5010 5881 CircleF
+4957 5793 CircleF
+4723 5512 CircleF
+4768 5647 CircleF
+5090 6159 CircleF
+4910 5849 CircleF
+4990 5689 CircleF
+4809 5826 CircleF
+4813 5971 CircleF
+4834 5863 CircleF
+4939 5563 CircleF
+5014 5950 CircleF
+4929 5687 CircleF
+5073 6125 CircleF
+4774 5857 CircleF
+5001 5820 CircleF
+4720 5602 CircleF
+4718 5721 CircleF
+4935 5657 CircleF
+4779 6015 CircleF
+4655 5508 CircleF
+4974 5837 CircleF
+5039 5974 CircleF
+4803 5945 CircleF
+5016 5945 CircleF
+4810 5531 CircleF
+5018 5983 CircleF
+4645 5523 CircleF
+4730 5837 CircleF
+4969 5746 CircleF
+5065 6062 CircleF
+4635 5530 CircleF
+4973 5968 CircleF
+4830 5918 CircleF
+5095 6162 CircleF
+4764 5914 CircleF
+4953 5756 CircleF
+4830 5827 CircleF
+4977 5677 CircleF
+4701 5450 CircleF
+4801 5841 CircleF
+4775 5648 CircleF
+4732 5675 CircleF
+4938 5612 CircleF
+5009 5783 CircleF
+4699 5936 CircleF
+4802 5715 CircleF
+5028 6097 CircleF
+4713 5897 CircleF
+4683 5621 CircleF
+4681 5514 CircleF
+4870 5917 CircleF
+4941 5669 CircleF
+4709 5943 CircleF
+5086 6159 CircleF
+4736 5529 CircleF
+5013 5915 CircleF
+4727 5920 CircleF
+4836 6035 CircleF
+4832 5613 CircleF
+4926 5656 CircleF
+4842 6013 CircleF
+5067 6097 CircleF
+5070 5977 CircleF
+4708 5456 CircleF
+4646 5763 CircleF
+4802 5546 CircleF
+4784 5973 CircleF
+4798 5636 CircleF
+4754 6017 CircleF
+4985 5813 CircleF
+5016 5848 CircleF
+5001 5836 CircleF
+4705 5970 CircleF
+4753 5851 CircleF
+4907 5539 CircleF
+4952 5698 CircleF
+4670 5861 CircleF
+4994 5589 CircleF
+4777 5741 CircleF
+4681 5516 CircleF
+4740 5480 CircleF
+5077 6159 CircleF
+4987 5762 CircleF
+4684 5755 CircleF
+4665 5736 CircleF
+4725 5912 CircleF
+4973 5844 CircleF
+5017 5959 CircleF
+4800 5655 CircleF
+4958 5769 CircleF
+4737 5805 CircleF
+4968 5587 CircleF
+4720 5542 CircleF
+5054 6017 CircleF
+4690 5487 CircleF
+4689 5627 CircleF
+4812 5772 CircleF
+4653 5496 CircleF
+4737 5520 CircleF
+4809 5995 CircleF
+4997 5874 CircleF
+4765 5838 CircleF
+4754 5543 CircleF
+4868 5829 CircleF
+4769 6007 CircleF
+4820 5717 CircleF
+4897 5931 CircleF
+4698 5840 CircleF
+4692 5981 CircleF
+4604 5531 CircleF
+5023 5878 CircleF
+4663 5487 CircleF
+4679 5820 CircleF
+4777 5574 CircleF
+4692 5501 CircleF
+4975 5697 CircleF
+4738 5965 CircleF
+4683 5722 CircleF
+4763 5770 CircleF
+4823 5571 CircleF
+4844 6032 CircleF
+4774 5973 CircleF
+4813 5950 CircleF
+4774 5759 CircleF
+5052 6040 CircleF
+4837 5908 CircleF
+4679 5525 CircleF
+4578 5520 CircleF
+4620 5526 CircleF
+4773 5647 CircleF
+4675 5623 CircleF
+4615 5449 CircleF
+4627 5720 CircleF
+4658 5822 CircleF
+4776 5515 CircleF
+5000 5675 CircleF
+5069 6149 CircleF
+4594 5576 CircleF
+4689 5759 CircleF
+4735 5770 CircleF
+4640 5881 CircleF
+4706 5658 CircleF
+4805 5905 CircleF
+4696 5497 CircleF
+4828 6007 CircleF
+4684 6013 CircleF
+4716 5551 CircleF
+4367 5437 CircleF
+4841 5589 CircleF
+5032 5900 CircleF
+4674 5853 CircleF
+4718 6027 CircleF
+4651 5875 CircleF
+4512 5523 CircleF
+4736 5979 CircleF
+4647 5967 CircleF
+4704 5592 CircleF
+4404 5620 CircleF
+4637 5825 CircleF
+4704 5756 CircleF
+4674 5882 CircleF
+4657 5848 CircleF
+4398 5584 CircleF
+4716 6003 CircleF
+4784 6023 CircleF
+4757 5914 CircleF
+4716 5505 CircleF
+4704 5663 CircleF
+4430 5755 CircleF
+4568 5429 CircleF
+4648 5765 CircleF
+4667 5527 CircleF
+4579 5538 CircleF
+4599 5468 CircleF
+4761 5736 CircleF
+4660 5640 CircleF
+4626 5688 CircleF
+4559 5768 CircleF
+4656 5727 CircleF
+4542 5525 CircleF
+4634 5525 CircleF
+4530 5896 CircleF
+4621 5754 CircleF
+4593 5634 CircleF
+4670 5976 CircleF
+4632 5665 CircleF
+4373 5444 CircleF
+4574 6004 CircleF
+4535 5920 CircleF
+4604 6015 CircleF
+4607 5474 CircleF
+4604 5546 CircleF
+4647 5546 CircleF
+4476 5473 CircleF
+4628 5735 CircleF
+4512 5779 CircleF
+4590 5917 CircleF
+4630 5801 CircleF
+4587 5675 CircleF
+4690 5916 CircleF
+4574 5707 CircleF
+4624 5703 CircleF
+4529 5758 CircleF
+4415 5812 CircleF
+4525 5423 CircleF
+4609 5553 CircleF
+4529 5864 CircleF
+4601 5977 CircleF
+4639 5835 CircleF
+4632 5728 CircleF
+4448 6006 CircleF
+4647 5664 CircleF
+4676 5701 CircleF
+4549 5867 CircleF
+4548 5529 CircleF
+4583 5469 CircleF
+4570 5990 CircleF
+4630 5651 CircleF
+4526 5557 CircleF
+4670 5999 CircleF
+4621 5874 CircleF
+4611 5666 CircleF
+4396 5541 CircleF
+4628 6004 CircleF
+4549 5857 CircleF
+4413 5782 CircleF
+4502 5422 CircleF
+4546 5828 CircleF
+4605 5832 CircleF
+4414 5779 CircleF
+4644 5548 CircleF
+4577 5998 CircleF
+4548 5550 CircleF
+4498 5551 CircleF
+4634 5926 CircleF
+4675 5702 CircleF
+4572 5669 CircleF
+4593 5684 CircleF
+4655 5804 CircleF
+4632 5473 CircleF
+4418 5702 CircleF
+4568 5935 CircleF
+4555 5844 CircleF
+4546 5530 CircleF
+4625 5859 CircleF
+4074 5561 CircleF
+4721 5950 CircleF
+4293 5712 CircleF
+4603 5522 CircleF
+4354 5508 CircleF
+4419 5775 CircleF
+4389 5545 CircleF
+4603 5516 CircleF
+4093 5640 CircleF
+4597 5462 CircleF
+4664 5609 CircleF
+4418 5839 CircleF
+4433 5759 CircleF
+4395 5695 CircleF
+4340 5425 CircleF
+4117 5758 CircleF
+4434 5858 CircleF
+4333 5704 CircleF
+4422 5856 CircleF
+4213 5437 CircleF
+4402 5665 CircleF
+4057 5438 CircleF
+4476 5990 CircleF
+4251 5618 CircleF
+4330 5684 CircleF
+4446 5807 CircleF
+4134 5833 CircleF
+4370 5492 CircleF
+4308 5744 CircleF
+4120 5749 CircleF
+4439 5853 CircleF
+4419 5648 CircleF
+4283 5601 CircleF
+4249 5713 CircleF
+4386 5559 CircleF
+4323 5622 CircleF
+4317 5778 CircleF
+4288 5448 CircleF
+4398 5935 CircleF
+4314 5584 CircleF
+4375 5890 CircleF
+4194 5427 CircleF
+4288 5606 CircleF
+4377 5909 CircleF
+4265 5495 CircleF
+4209 5480 CircleF
+4379 5790 CircleF
+4245 5645 CircleF
+4383 5809 CircleF
+4377 5775 CircleF
+4323 5569 CircleF
+4285 5849 CircleF
+4319 5529 CircleF
+4336 5534 CircleF
+4335 5609 CircleF
+4376 5817 CircleF
+% End plot #1
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+1080 8818 N
+0 -4030 V
+5759 0 V
+0 4030 V
+-5759 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+6840 5796 M
+63 0 V
+5695 0 R
+-63 0 V
+stroke
+6720 5796 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.25)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6840 6803 M
+63 0 V
+5695 0 R
+-63 0 V
+stroke
+6720 6803 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.3)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6840 7811 M
+63 0 V
+5695 0 R
+-63 0 V
+stroke
+6720 7811 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.35)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+7992 4788 M
+0 63 V
+0 3967 R
+0 -63 V
+stroke
+7992 4588 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.1)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+9143 4788 M
+0 63 V
+0 3967 R
+0 -63 V
+stroke
+9143 4588 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.2)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+10295 4788 M
+0 63 V
+0 3967 R
+0 -63 V
+stroke
+10295 4588 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.3)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+11446 4788 M
+0 63 V
+0 3967 R
+0 -63 V
+stroke
+11446 4588 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.4)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+6840 8818 N
+0 -4030 V
+5758 0 V
+0 4030 V
+-5758 0 V
+Z stroke
+1.000 UP
+LCb setrgbcolor
+6955 8415 M
+[ [(Helvetica) 200.0 0.0 true true 0 (M=1.5 M)]
+[(Helvetica) 120.0 -60.0 true true 0 (O)]
+[(Helvetica) -64.0 -60.0 true false 0 (O)]
+[(Helvetica) 120.0 -60.0 true true 0 (�)]
+[(Helvetica) 200.0 0.0 true true 0 (     R=8 km     B=2.39x10)]
+[(Helvetica) 160.0 100.0 true true 0 (8)]
+[(Helvetica) 200.0 0.0 true true 0 ( G     )]
+[(Helvetica) 200.0 0.0 true true 0 (D)]
+[(Helvetica) 160.0 -60.0 true true 0 (BL)]
+[(Helvetica) 200.0 0.0 true true 0 (=6.54)]
+] -66.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+% Begin plot #1
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+7545 6759 CircleF
+7418 7279 CircleF
+8247 6006 CircleF
+8635 5690 CircleF
+8658 5474 CircleF
+8333 6565 CircleF
+8647 5994 CircleF
+7793 7555 CircleF
+8918 5779 CircleF
+8723 6184 CircleF
+8501 6017 CircleF
+8868 6261 CircleF
+8827 5726 CircleF
+8550 6999 CircleF
+8282 7466 CircleF
+8896 6508 CircleF
+8509 7327 CircleF
+8937 6695 CircleF
+8932 6249 CircleF
+9023 5462 CircleF
+9076 6741 CircleF
+9136 6324 CircleF
+8907 5973 CircleF
+9081 5757 CircleF
+8755 7721 CircleF
+9263 6713 CircleF
+8989 5765 CircleF
+9108 7539 CircleF
+9262 6094 CircleF
+9326 6962 CircleF
+9131 5590 CircleF
+9137 5859 CircleF
+9170 5617 CircleF
+9122 7632 CircleF
+9545 6534 CircleF
+9048 7637 CircleF
+9234 5681 CircleF
+9554 5927 CircleF
+9689 6098 CircleF
+9251 5815 CircleF
+9702 5950 CircleF
+9541 6058 CircleF
+9804 6033 CircleF
+9542 5532 CircleF
+9843 5607 CircleF
+10025 6184 CircleF
+10412 7298 CircleF
+10772 7392 CircleF
+10090 6132 CircleF
+9969 5827 CircleF
+10046 5886 CircleF
+10926 5612 CircleF
+10958 5690 CircleF
+10945 5874 CircleF
+11090 5891 CircleF
+10994 5762 CircleF
+11053 5755 CircleF
+11088 6011 CircleF
+11022 5546 CircleF
+10934 5705 CircleF
+10888 5695 CircleF
+10928 5566 CircleF
+11067 5831 CircleF
+11176 5935 CircleF
+11090 5875 CircleF
+11040 5947 CircleF
+11013 5826 CircleF
+10978 5678 CircleF
+11141 5664 CircleF
+11174 5965 CircleF
+10912 5446 CircleF
+11078 5951 CircleF
+11025 5567 CircleF
+11150 5662 CircleF
+10928 5815 CircleF
+11185 5952 CircleF
+10941 5795 CircleF
+11006 5528 CircleF
+10910 5785 CircleF
+10959 5542 CircleF
+11092 5804 CircleF
+10920 5751 CircleF
+11062 5723 CircleF
+11164 5771 CircleF
+11012 5507 CircleF
+10908 5837 CircleF
+11228 6079 CircleF
+10854 5704 CircleF
+10887 5793 CircleF
+11033 5664 CircleF
+11063 5488 CircleF
+10952 5985 CircleF
+11077 5963 CircleF
+11019 5477 CircleF
+11082 5731 CircleF
+11050 5871 CircleF
+11005 5462 CircleF
+11060 5994 CircleF
+10987 5459 CircleF
+10885 5756 CircleF
+11092 5842 CircleF
+10871 5598 CircleF
+11169 5697 CircleF
+11042 5915 CircleF
+10899 5530 CircleF
+10963 5726 CircleF
+10890 5523 CircleF
+10917 5779 CircleF
+10918 6022 CircleF
+10837 5446 CircleF
+11118 5914 CircleF
+10816 5499 CircleF
+10894 5798 CircleF
+10974 6008 CircleF
+10845 5583 CircleF
+10877 5966 CircleF
+11035 5725 CircleF
+11088 5604 CircleF
+10992 5555 CircleF
+10925 5844 CircleF
+10920 6014 CircleF
+10933 5893 CircleF
+10950 5895 CircleF
+10953 5843 CircleF
+10858 5561 CircleF
+10896 5653 CircleF
+10864 5528 CircleF
+10945 5831 CircleF
+10988 5811 CircleF
+10953 5866 CircleF
+11321 5864 CircleF
+11364 6136 CircleF
+11378 6021 CircleF
+11384 6130 CircleF
+10961 5509 CircleF
+10939 5495 CircleF
+10989 5632 CircleF
+11382 6030 CircleF
+11306 6076 CircleF
+11320 5825 CircleF
+11309 5801 CircleF
+11226 5642 CircleF
+11374 6079 CircleF
+11260 5749 CircleF
+11018 5911 CircleF
+11375 5974 CircleF
+11380 5708 CircleF
+11338 5917 CircleF
+11291 5835 CircleF
+11287 5736 CircleF
+11201 5534 CircleF
+11001 5746 CircleF
+11224 5572 CircleF
+11319 5723 CircleF
+11299 5693 CircleF
+11289 6089 CircleF
+11223 5541 CircleF
+11346 5777 CircleF
+11284 5773 CircleF
+11348 6062 CircleF
+11367 5954 CircleF
+11356 6039 CircleF
+11312 6082 CircleF
+11216 5704 CircleF
+10923 5444 CircleF
+11355 5963 CircleF
+11062 5566 CircleF
+11026 5528 CircleF
+11313 5887 CircleF
+11306 5979 CircleF
+11301 6065 CircleF
+11154 5956 CircleF
+11325 5860 CircleF
+11409 5953 CircleF
+11385 5981 CircleF
+11156 5862 CircleF
+11066 5710 CircleF
+11209 5532 CircleF
+11282 5579 CircleF
+11296 5859 CircleF
+11267 5963 CircleF
+11336 5961 CircleF
+11118 5877 CircleF
+11331 5739 CircleF
+10962 5573 CircleF
+11385 6114 CircleF
+11382 5754 CircleF
+11286 5906 CircleF
+11287 6020 CircleF
+11069 5527 CircleF
+11328 5648 CircleF
+11260 5726 CircleF
+11314 5753 CircleF
+11268 5656 CircleF
+10988 5727 CircleF
+11189 5590 CircleF
+11092 5680 CircleF
+11335 5935 CircleF
+11391 6105 CircleF
+11248 5627 CircleF
+11092 5762 CircleF
+11274 5864 CircleF
+11412 6143 CircleF
+11042 5963 CircleF
+11437 6049 CircleF
+11373 6082 CircleF
+11377 5843 CircleF
+11311 6008 CircleF
+11298 6046 CircleF
+10961 5657 CircleF
+11078 5503 CircleF
+11089 5598 CircleF
+11323 5943 CircleF
+11348 6020 CircleF
+11228 5785 CircleF
+11287 6060 CircleF
+10933 5478 CircleF
+11405 6150 CircleF
+11253 5642 CircleF
+11380 5932 CircleF
+11118 5812 CircleF
+11389 6155 CircleF
+11428 6092 CircleF
+11075 5733 CircleF
+11302 5994 CircleF
+11071 5648 CircleF
+11316 5930 CircleF
+11322 5899 CircleF
+11274 5825 CircleF
+11437 6107 CircleF
+11373 5860 CircleF
+11304 5922 CircleF
+11302 5721 CircleF
+11385 6005 CircleF
+11333 5786 CircleF
+11251 5840 CircleF
+10991 5610 CircleF
+11017 5788 CircleF
+11248 6049 CircleF
+11243 5853 CircleF
+10985 5499 CircleF
+11396 5981 CircleF
+10927 5545 CircleF
+11020 5865 CircleF
+11327 5932 CircleF
+11349 5881 CircleF
+11289 5793 CircleF
+11021 5512 CircleF
+11072 5647 CircleF
+11441 6159 CircleF
+11235 5849 CircleF
+11326 5689 CircleF
+11120 5826 CircleF
+11125 5971 CircleF
+11149 5863 CircleF
+11267 5563 CircleF
+11354 5950 CircleF
+11256 5687 CircleF
+11422 6125 CircleF
+11080 5857 CircleF
+11338 5820 CircleF
+11018 5602 CircleF
+11016 5721 CircleF
+11262 5657 CircleF
+11086 6015 CircleF
+10944 5508 CircleF
+11307 5837 CircleF
+11382 5974 CircleF
+11114 5945 CircleF
+11356 5945 CircleF
+11120 5531 CircleF
+11358 5983 CircleF
+10932 5523 CircleF
+11030 5837 CircleF
+11301 5746 CircleF
+11412 6062 CircleF
+10921 5530 CircleF
+11307 5968 CircleF
+11145 5918 CircleF
+11446 6162 CircleF
+11069 5914 CircleF
+11284 5756 CircleF
+11144 5827 CircleF
+11311 5677 CircleF
+10995 5450 CircleF
+11111 5841 CircleF
+11080 5648 CircleF
+11032 5675 CircleF
+11266 5612 CircleF
+11347 5783 CircleF
+10995 5936 CircleF
+11111 5715 CircleF
+11370 6097 CircleF
+11011 5897 CircleF
+10976 5621 CircleF
+10973 5514 CircleF
+11189 5917 CircleF
+11270 5669 CircleF
+11007 5943 CircleF
+11436 6159 CircleF
+11036 5529 CircleF
+11353 5915 CircleF
+11026 5920 CircleF
+11151 6035 CircleF
+11145 5613 CircleF
+11253 5656 CircleF
+11158 6013 CircleF
+11414 6097 CircleF
+11417 5977 CircleF
+11004 5456 CircleF
+10934 5763 CircleF
+11111 5546 CircleF
+11092 5973 CircleF
+11107 5636 CircleF
+11058 6017 CircleF
+11320 5813 CircleF
+11355 5848 CircleF
+11339 5836 CircleF
+11002 5970 CircleF
+11056 5851 CircleF
+11231 5539 CircleF
+11282 5698 CircleF
+10962 5861 CircleF
+11329 5589 CircleF
+11083 5741 CircleF
+10973 5516 CircleF
+11040 5480 CircleF
+11426 6159 CircleF
+11322 5762 CircleF
+10978 5755 CircleF
+10955 5736 CircleF
+11024 5912 CircleF
+11307 5844 CircleF
+11357 5959 CircleF
+11109 5655 CircleF
+11289 5769 CircleF
+11038 5805 CircleF
+11300 5587 CircleF
+11017 5542 CircleF
+11399 6017 CircleF
+10983 5487 CircleF
+10983 5627 CircleF
+11123 5772 CircleF
+10941 5496 CircleF
+11037 5520 CircleF
+11120 5995 CircleF
+11333 5874 CircleF
+11069 5838 CircleF
+11056 5543 CircleF
+11187 5829 CircleF
+11075 6007 CircleF
+11132 5717 CircleF
+11221 5931 CircleF
+10994 5840 CircleF
+10987 5981 CircleF
+10885 5531 CircleF
+11364 5878 CircleF
+10953 5487 CircleF
+10972 5820 CircleF
+11082 5574 CircleF
+10985 5501 CircleF
+11308 5697 CircleF
+11039 5965 CircleF
+10976 5722 CircleF
+11067 5770 CircleF
+11134 5571 CircleF
+11160 6032 CircleF
+11080 5973 CircleF
+11124 5950 CircleF
+11079 5759 CircleF
+11397 6040 CircleF
+11152 5908 CircleF
+10970 5525 CircleF
+10855 5520 CircleF
+10903 5526 CircleF
+11078 5647 CircleF
+10966 5623 CircleF
+10898 5449 CircleF
+10912 5720 CircleF
+10948 5822 CircleF
+11081 5515 CircleF
+11337 5675 CircleF
+11416 6149 CircleF
+10874 5576 CircleF
+10983 5759 CircleF
+11035 5770 CircleF
+10927 5881 CircleF
+11001 5658 CircleF
+11115 5905 CircleF
+10989 5497 CircleF
+11142 6007 CircleF
+10978 6013 CircleF
+11013 5551 CircleF
+10614 5437 CircleF
+11154 5589 CircleF
+11374 5900 CircleF
+10966 5853 CircleF
+11017 6027 CircleF
+10940 5875 CircleF
+10780 5523 CircleF
+11037 5979 CircleF
+10935 5967 CircleF
+10999 5592 CircleF
+10657 5620 CircleF
+10923 5825 CircleF
+11000 5756 CircleF
+10965 5882 CircleF
+10946 5848 CircleF
+10650 5584 CircleF
+11014 6003 CircleF
+11091 6023 CircleF
+11060 5914 CircleF
+11012 5505 CircleF
+10999 5663 CircleF
+10687 5755 CircleF
+10843 5429 CircleF
+10936 5765 CircleF
+10957 5527 CircleF
+10856 5538 CircleF
+10879 5468 CircleF
+11064 5736 CircleF
+10949 5640 CircleF
+10910 5688 CircleF
+10834 5768 CircleF
+10945 5727 CircleF
+10815 5525 CircleF
+10919 5525 CircleF
+10802 5896 CircleF
+10905 5754 CircleF
+10872 5634 CircleF
+10961 5976 CircleF
+10917 5665 CircleF
+10622 5444 CircleF
+10852 6004 CircleF
+10808 5920 CircleF
+10887 6015 CircleF
+10888 5474 CircleF
+10885 5546 CircleF
+10933 5546 CircleF
+10738 5473 CircleF
+10913 5735 CircleF
+10781 5779 CircleF
+10870 5917 CircleF
+10915 5801 CircleF
+10866 5675 CircleF
+10983 5916 CircleF
+10851 5707 CircleF
+10908 5703 CircleF
+10800 5758 CircleF
+10670 5812 CircleF
+10794 5423 CircleF
+10890 5553 CircleF
+10800 5864 CircleF
+10883 5977 CircleF
+10926 5835 CircleF
+10917 5728 CircleF
+10708 6006 CircleF
+10933 5664 CircleF
+10967 5701 CircleF
+10823 5867 CircleF
+10821 5529 CircleF
+10860 5469 CircleF
+10847 5990 CircleF
+10914 5651 CircleF
+10796 5557 CircleF
+10961 5999 CircleF
+10905 5874 CircleF
+10893 5666 CircleF
+10648 5541 CircleF
+10913 6004 CircleF
+10823 5857 CircleF
+10667 5782 CircleF
+10768 5422 CircleF
+10819 5828 CircleF
+10886 5832 CircleF
+10668 5779 CircleF
+10930 5548 CircleF
+10855 5998 CircleF
+10820 5550 CircleF
+10764 5551 CircleF
+10919 5926 CircleF
+10966 5702 CircleF
+10848 5669 CircleF
+10872 5684 CircleF
+10942 5804 CircleF
+10916 5473 CircleF
+10673 5702 CircleF
+10844 5935 CircleF
+10829 5844 CircleF
+10819 5530 CircleF
+10909 5859 CircleF
+10279 5561 CircleF
+11019 5950 CircleF
+10531 5712 CircleF
+10883 5522 CircleF
+10599 5508 CircleF
+10674 5775 CircleF
+10639 5545 CircleF
+10883 5516 CircleF
+10301 5640 CircleF
+10875 5462 CircleF
+10953 5609 CircleF
+10673 5839 CircleF
+10689 5759 CircleF
+10646 5695 CircleF
+10583 5425 CircleF
+10329 5758 CircleF
+10691 5858 CircleF
+10575 5704 CircleF
+10677 5856 CircleF
+10437 5437 CircleF
+10654 5665 CircleF
+10260 5438 CircleF
+10739 5990 CircleF
+10482 5618 CircleF
+10572 5684 CircleF
+10704 5807 CircleF
+10349 5833 CircleF
+10617 5492 CircleF
+10547 5744 CircleF
+10333 5749 CircleF
+10697 5853 CircleF
+10673 5648 CircleF
+10518 5601 CircleF
+10479 5713 CircleF
+10635 5559 CircleF
+10564 5622 CircleF
+10557 5778 CircleF
+10523 5448 CircleF
+10650 5935 CircleF
+10553 5584 CircleF
+10623 5890 CircleF
+10416 5427 CircleF
+10523 5606 CircleF
+10626 5909 CircleF
+10497 5495 CircleF
+10433 5480 CircleF
+10627 5790 CircleF
+10474 5645 CircleF
+10631 5809 CircleF
+10625 5775 CircleF
+10562 5569 CircleF
+10520 5849 CircleF
+10558 5529 CircleF
+10577 5534 CircleF
+10577 5609 CircleF
+10624 5817 CircleF
+% End plot #1
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+6840 8818 N
+0 -4030 V
+5758 0 V
+0 4030 V
+-5758 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+1080 1764 M
+63 0 V
+stroke
+960 1764 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.25)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1080 2771 M
+63 0 V
+stroke
+960 2771 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.3)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1080 3779 M
+63 0 V
+stroke
+960 3779 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.35)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+2232 756 M
+0 63 V
+stroke
+2232 556 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.1)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+3384 756 M
+0 63 V
+stroke
+3384 556 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.2)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+4535 756 M
+0 63 V
+stroke
+4535 556 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.3)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+5687 756 M
+0 63 V
+stroke
+5687 556 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.4)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+1080 4787 N
+0 -4031 V
+5759 0 V
+0 4031 V
+-5759 0 V
+Z stroke
+1.000 UP
+LCb setrgbcolor
+1195 4182 M
+[ [(Helvetica) 200.0 0.0 true true 0 (M=1.5 M)]
+[(Helvetica) 120.0 -60.0 true true 0 (O)]
+[(Helvetica) -64.0 -60.0 true false 0 (O)]
+[(Helvetica) 120.0 -60.0 true true 0 (�)]
+[(Helvetica) 200.0 0.0 true true 0 (     R=11 km     B=1.08x10)]
+[(Helvetica) 160.0 100.0 true true 0 (8)]
+[(Helvetica) 200.0 0.0 true true 0 ( G     )]
+[(Helvetica) 200.0 0.0 true true 0 (D)]
+[(Helvetica) 160.0 -60.0 true true 0 (BL)]
+[(Helvetica) 200.0 0.0 true true 0 (=5.23)]
+] -66.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+260 2771 M
+currentpoint gsave translate -270 rotate 0 0 moveto
+[ [(Symbol) 300.0 0.0 true true 0 (Dn)]
+[(Helvetica) 300.0 0.0 true true 0 ( \(1000 Hz\))]
+] -100.0 MCshow
+grestore
+LTb
+LCb setrgbcolor
+3959 256 M
+[ [(Symbol) 300.0 0.0 true true 0 (d)]
+[(Helvetica) 300.0 0.0 true true 0 ( r)]
+[(Helvetica) 240.0 -90.0 true true 0 (in)]
+[(Helvetica) 300.0 0.0 true true 0 ( \(10)]
+[(Helvetica) 240.0 150.0 true true 0 (6)]
+[(Helvetica) 300.0 0.0 true true 0 ( cm\))]
+] -100.0 MCshow
+LTb
+% Begin plot #1
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+1785 2728 CircleF
+1658 3248 CircleF
+2487 1974 CircleF
+2875 1658 CircleF
+2899 1442 CircleF
+2573 2533 CircleF
+2887 1963 CircleF
+2033 3524 CircleF
+3159 1748 CircleF
+2963 2152 CircleF
+2741 1985 CircleF
+3108 2229 CircleF
+3068 1694 CircleF
+2790 2968 CircleF
+2522 3435 CircleF
+3136 2477 CircleF
+2750 3295 CircleF
+3178 2664 CircleF
+3172 2218 CircleF
+3263 1430 CircleF
+3316 2709 CircleF
+3376 2292 CircleF
+3148 1941 CircleF
+3321 1725 CircleF
+2996 3690 CircleF
+3504 2682 CircleF
+3229 1733 CircleF
+3348 3508 CircleF
+3502 2063 CircleF
+3566 2930 CircleF
+3371 1559 CircleF
+3377 1827 CircleF
+3410 1585 CircleF
+3362 3601 CircleF
+3786 2503 CircleF
+3288 3605 CircleF
+3475 1649 CircleF
+3795 1895 CircleF
+3929 2066 CircleF
+3492 1783 CircleF
+3943 1919 CircleF
+3782 2026 CircleF
+4044 2001 CircleF
+3782 1500 CircleF
+4083 1575 CircleF
+4266 2152 CircleF
+4652 3266 CircleF
+5012 3360 CircleF
+4331 2100 CircleF
+4209 1795 CircleF
+4286 1855 CircleF
+5166 1581 CircleF
+5198 1659 CircleF
+5186 1842 CircleF
+5331 1860 CircleF
+5235 1730 CircleF
+5293 1723 CircleF
+5329 1979 CircleF
+5263 1515 CircleF
+5174 1673 CircleF
+5129 1663 CircleF
+5169 1535 CircleF
+5307 1800 CircleF
+5417 1903 CircleF
+5330 1843 CircleF
+5280 1915 CircleF
+5254 1794 CircleF
+5219 1647 CircleF
+5381 1632 CircleF
+5415 1933 CircleF
+5153 1415 CircleF
+5319 1919 CircleF
+5265 1536 CircleF
+5391 1630 CircleF
+5168 1783 CircleF
+5426 1920 CircleF
+5182 1763 CircleF
+5247 1496 CircleF
+5151 1753 CircleF
+5199 1510 CircleF
+5332 1772 CircleF
+5161 1719 CircleF
+5303 1691 CircleF
+5404 1740 CircleF
+5253 1475 CircleF
+5148 1805 CircleF
+5468 2047 CircleF
+5095 1672 CircleF
+5128 1761 CircleF
+5274 1632 CircleF
+5304 1457 CircleF
+5193 1953 CircleF
+5317 1932 CircleF
+5259 1445 CircleF
+5322 1699 CircleF
+5291 1839 CircleF
+5245 1430 CircleF
+5301 1962 CircleF
+5228 1427 CircleF
+5126 1724 CircleF
+5332 1811 CircleF
+5112 1566 CircleF
+5410 1665 CircleF
+5283 1884 CircleF
+5140 1499 CircleF
+5203 1694 CircleF
+5131 1491 CircleF
+5157 1747 CircleF
+5159 1991 CircleF
+5077 1414 CircleF
+5359 1882 CircleF
+5057 1468 CircleF
+5135 1766 CircleF
+5214 1976 CircleF
+5085 1551 CircleF
+5117 1934 CircleF
+5276 1693 CircleF
+5329 1572 CircleF
+5233 1524 CircleF
+5166 1812 CircleF
+5161 1982 CircleF
+5173 1862 CircleF
+5191 1863 CircleF
+5193 1812 CircleF
+5098 1529 CircleF
+5136 1622 CircleF
+5104 1497 CircleF
+5186 1799 CircleF
+5229 1779 CircleF
+5193 1834 CircleF
+5562 1832 CircleF
+5605 2105 CircleF
+5619 1990 CircleF
+5625 2098 CircleF
+5201 1477 CircleF
+5180 1463 CircleF
+5229 1600 CircleF
+5622 1999 CircleF
+5547 2044 CircleF
+5560 1794 CircleF
+5550 1769 CircleF
+5466 1610 CircleF
+5615 2048 CircleF
+5500 1717 CircleF
+5259 1879 CircleF
+5615 1942 CircleF
+5621 1677 CircleF
+5579 1885 CircleF
+5532 1804 CircleF
+5528 1705 CircleF
+5442 1502 CircleF
+5241 1714 CircleF
+5465 1540 CircleF
+5560 1691 CircleF
+5540 1662 CircleF
+5530 2057 CircleF
+5464 1509 CircleF
+5586 1745 CircleF
+5525 1741 CircleF
+5589 2030 CircleF
+5608 1922 CircleF
+5597 2007 CircleF
+5553 2051 CircleF
+5457 1672 CircleF
+5164 1412 CircleF
+5596 1931 CircleF
+5302 1534 CircleF
+5267 1496 CircleF
+5553 1856 CircleF
+5547 1947 CircleF
+5542 2034 CircleF
+5394 1924 CircleF
+5565 1828 CircleF
+5650 1921 CircleF
+5626 1949 CircleF
+5397 1831 CircleF
+5306 1678 CircleF
+5449 1500 CircleF
+5523 1547 CircleF
+5537 1827 CircleF
+5508 1932 CircleF
+5576 1929 CircleF
+5359 1845 CircleF
+5572 1707 CircleF
+5203 1541 CircleF
+5626 2082 CircleF
+5622 1722 CircleF
+5527 1875 CircleF
+5528 1989 CircleF
+5309 1496 CircleF
+5569 1616 CircleF
+5501 1694 CircleF
+5555 1721 CircleF
+5509 1624 CircleF
+5228 1696 CircleF
+5430 1558 CircleF
+5332 1648 CircleF
+5576 1904 CircleF
+5631 2073 CircleF
+5489 1595 CircleF
+5333 1730 CircleF
+5514 1832 CircleF
+5653 2111 CircleF
+5283 1932 CircleF
+5678 2018 CircleF
+5614 2050 CircleF
+5618 1811 CircleF
+5552 1976 CircleF
+5539 2015 CircleF
+5202 1625 CircleF
+5319 1472 CircleF
+5329 1566 CircleF
+5564 1911 CircleF
+5589 1988 CircleF
+5469 1753 CircleF
+5528 2029 CircleF
+5174 1446 CircleF
+5646 2118 CircleF
+5494 1610 CircleF
+5620 1900 CircleF
+5358 1781 CircleF
+5630 2123 CircleF
+5669 2061 CircleF
+5315 1701 CircleF
+5543 1962 CircleF
+5312 1617 CircleF
+5557 1899 CircleF
+5563 1868 CircleF
+5515 1793 CircleF
+5678 2075 CircleF
+5614 1828 CircleF
+5545 1891 CircleF
+5543 1689 CircleF
+5626 1973 CircleF
+5573 1754 CircleF
+5492 1809 CircleF
+5231 1578 CircleF
+5258 1756 CircleF
+5489 2017 CircleF
+5484 1821 CircleF
+5226 1467 CircleF
+5637 1949 CircleF
+5168 1513 CircleF
+5260 1833 CircleF
+5567 1901 CircleF
+5590 1849 CircleF
+5529 1761 CircleF
+5261 1481 CircleF
+5313 1616 CircleF
+5682 2127 CircleF
+5475 1817 CircleF
+5567 1657 CircleF
+5361 1794 CircleF
+5366 1939 CircleF
+5390 1832 CircleF
+5508 1532 CircleF
+5594 1919 CircleF
+5497 1655 CircleF
+5663 2094 CircleF
+5321 1825 CircleF
+5579 1789 CircleF
+5258 1570 CircleF
+5257 1690 CircleF
+5503 1625 CircleF
+5327 1984 CircleF
+5184 1476 CircleF
+5548 1805 CircleF
+5623 1943 CircleF
+5354 1913 CircleF
+5597 1913 CircleF
+5360 1499 CircleF
+5599 1951 CircleF
+5173 1491 CircleF
+5270 1806 CircleF
+5542 1715 CircleF
+5653 2030 CircleF
+5161 1498 CircleF
+5548 1936 CircleF
+5385 1886 CircleF
+5687 2130 CircleF
+5310 1883 CircleF
+5524 1724 CircleF
+5385 1796 CircleF
+5552 1646 CircleF
+5236 1418 CircleF
+5352 1810 CircleF
+5321 1616 CircleF
+5273 1643 CircleF
+5506 1580 CircleF
+5588 1751 CircleF
+5236 1905 CircleF
+5352 1683 CircleF
+5611 2066 CircleF
+5252 1866 CircleF
+5216 1589 CircleF
+5214 1482 CircleF
+5430 1885 CircleF
+5511 1638 CircleF
+5248 1911 CircleF
+5676 2128 CircleF
+5277 1497 CircleF
+5594 1884 CircleF
+5267 1888 CircleF
+5392 2004 CircleF
+5386 1581 CircleF
+5494 1624 CircleF
+5399 1981 CircleF
+5655 2066 CircleF
+5658 1946 CircleF
+5244 1424 CircleF
+5174 1731 CircleF
+5352 1514 CircleF
+5333 1941 CircleF
+5347 1604 CircleF
+5299 1986 CircleF
+5561 1781 CircleF
+5596 1816 CircleF
+5579 1804 CircleF
+5243 1938 CircleF
+5297 1819 CircleF
+5472 1507 CircleF
+5523 1666 CircleF
+5202 1829 CircleF
+5570 1557 CircleF
+5324 1709 CircleF
+5213 1484 CircleF
+5281 1448 CircleF
+5666 2128 CircleF
+5563 1731 CircleF
+5218 1724 CircleF
+5196 1705 CircleF
+5265 1880 CircleF
+5547 1812 CircleF
+5598 1927 CircleF
+5350 1623 CircleF
+5530 1737 CircleF
+5279 1773 CircleF
+5541 1555 CircleF
+5258 1510 CircleF
+5640 1985 CircleF
+5224 1456 CircleF
+5224 1596 CircleF
+5364 1741 CircleF
+5181 1464 CircleF
+5277 1488 CircleF
+5361 1964 CircleF
+5574 1842 CircleF
+5310 1807 CircleF
+5296 1511 CircleF
+5428 1797 CircleF
+5315 1975 CircleF
+5372 1685 CircleF
+5461 1900 CircleF
+5234 1808 CircleF
+5228 1949 CircleF
+5125 1500 CircleF
+5605 1846 CircleF
+5193 1455 CircleF
+5212 1788 CircleF
+5323 1542 CircleF
+5226 1469 CircleF
+5549 1665 CircleF
+5280 1933 CircleF
+5216 1690 CircleF
+5308 1739 CircleF
+5375 1540 CircleF
+5401 2000 CircleF
+5321 1941 CircleF
+5365 1919 CircleF
+5320 1727 CircleF
+5638 2009 CircleF
+5393 1877 CircleF
+5211 1493 CircleF
+5096 1488 CircleF
+5143 1494 CircleF
+5318 1616 CircleF
+5207 1592 CircleF
+5139 1417 CircleF
+5152 1688 CircleF
+5189 1790 CircleF
+5322 1483 CircleF
+5577 1644 CircleF
+5657 2117 CircleF
+5114 1544 CircleF
+5223 1728 CircleF
+5275 1738 CircleF
+5168 1849 CircleF
+5242 1627 CircleF
+5356 1874 CircleF
+5230 1465 CircleF
+5383 1975 CircleF
+5219 1981 CircleF
+5253 1520 CircleF
+4855 1405 CircleF
+5395 1557 CircleF
+5614 1868 CircleF
+5207 1821 CircleF
+5258 1995 CircleF
+5181 1843 CircleF
+5021 1491 CircleF
+5278 1947 CircleF
+5176 1935 CircleF
+5239 1560 CircleF
+4898 1588 CircleF
+5164 1794 CircleF
+5241 1725 CircleF
+5206 1851 CircleF
+5187 1816 CircleF
+4891 1553 CircleF
+5255 1971 CircleF
+5332 1991 CircleF
+5301 1882 CircleF
+5253 1473 CircleF
+5240 1631 CircleF
+4928 1724 CircleF
+5084 1397 CircleF
+5176 1734 CircleF
+5198 1495 CircleF
+5097 1506 CircleF
+5120 1436 CircleF
+5304 1705 CircleF
+5190 1608 CircleF
+5151 1656 CircleF
+5075 1736 CircleF
+5186 1695 CircleF
+5055 1493 CircleF
+5160 1493 CircleF
+5042 1865 CircleF
+5146 1722 CircleF
+5113 1602 CircleF
+5202 1944 CircleF
+5158 1634 CircleF
+4862 1412 CircleF
+5093 1973 CircleF
+5048 1889 CircleF
+5127 1983 CircleF
+5129 1442 CircleF
+5125 1514 CircleF
+5174 1514 CircleF
+4979 1442 CircleF
+5154 1703 CircleF
+5022 1747 CircleF
+5110 1885 CircleF
+5155 1769 CircleF
+5107 1643 CircleF
+5224 1884 CircleF
+5091 1675 CircleF
+5148 1671 CircleF
+5040 1727 CircleF
+4910 1780 CircleF
+5035 1391 CircleF
+5131 1521 CircleF
+5040 1833 CircleF
+5123 1946 CircleF
+5166 1803 CircleF
+5157 1697 CircleF
+4949 1974 CircleF
+5174 1632 CircleF
+5208 1669 CircleF
+5064 1835 CircleF
+5061 1497 CircleF
+5101 1437 CircleF
+5088 1958 CircleF
+5155 1619 CircleF
+5036 1526 CircleF
+5202 1967 CircleF
+5146 1842 CircleF
+5133 1634 CircleF
+4888 1509 CircleF
+5154 1972 CircleF
+5064 1825 CircleF
+4908 1750 CircleF
+5009 1390 CircleF
+5060 1796 CircleF
+5127 1800 CircleF
+4909 1747 CircleF
+5171 1516 CircleF
+5096 1966 CircleF
+5061 1518 CircleF
+5004 1519 CircleF
+5160 1894 CircleF
+5206 1670 CircleF
+5089 1638 CircleF
+5112 1652 CircleF
+5183 1773 CircleF
+5156 1441 CircleF
+4914 1670 CircleF
+5085 1903 CircleF
+5070 1812 CircleF
+5059 1498 CircleF
+5150 1827 CircleF
+4520 1529 CircleF
+5259 1919 CircleF
+4771 1680 CircleF
+5124 1490 CircleF
+4840 1476 CircleF
+4915 1743 CircleF
+4880 1513 CircleF
+5124 1484 CircleF
+4542 1608 CircleF
+5116 1430 CircleF
+5193 1577 CircleF
+4913 1807 CircleF
+4930 1727 CircleF
+4886 1663 CircleF
+4824 1393 CircleF
+4569 1726 CircleF
+4931 1826 CircleF
+4816 1672 CircleF
+4918 1824 CircleF
+4678 1405 CircleF
+4894 1633 CircleF
+4501 1406 CircleF
+4980 1958 CircleF
+4723 1586 CircleF
+4813 1652 CircleF
+4945 1775 CircleF
+4589 1802 CircleF
+4858 1460 CircleF
+4787 1712 CircleF
+4573 1718 CircleF
+4938 1821 CircleF
+4914 1617 CircleF
+4759 1569 CircleF
+4720 1682 CircleF
+4876 1527 CircleF
+4804 1590 CircleF
+4798 1746 CircleF
+4763 1417 CircleF
+4890 1903 CircleF
+4794 1552 CircleF
+4864 1858 CircleF
+4657 1396 CircleF
+4764 1574 CircleF
+4867 1878 CircleF
+4738 1464 CircleF
+4674 1448 CircleF
+4868 1758 CircleF
+4715 1613 CircleF
+4872 1777 CircleF
+4866 1743 CircleF
+4803 1537 CircleF
+4761 1817 CircleF
+4798 1498 CircleF
+4818 1502 CircleF
+4817 1577 CircleF
+4864 1786 CircleF
+% End plot #1
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+1080 4787 N
+0 -4031 V
+5759 0 V
+0 4031 V
+-5759 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTb
+LCb setrgbcolor
+6840 1764 M
+63 0 V
+5695 0 R
+-63 0 V
+stroke
+6720 1764 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.25)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6840 2771 M
+63 0 V
+5695 0 R
+-63 0 V
+stroke
+6720 2771 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.3)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+6840 3779 M
+63 0 V
+5695 0 R
+-63 0 V
+stroke
+6720 3779 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.35)]
+] -66.7 MRshow
+1.000 UL
+LTb
+LCb setrgbcolor
+7992 756 M
+0 63 V
+stroke
+7992 556 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.1)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+9143 756 M
+0 63 V
+stroke
+9143 556 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.2)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+10295 756 M
+0 63 V
+stroke
+10295 556 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.3)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+11446 756 M
+0 63 V
+stroke
+11446 556 M
+[ [(Helvetica) 200.0 0.0 true true 0 (0.4)]
+] -66.7 MCshow
+1.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+6840 4787 N
+0 -4031 V
+5758 0 V
+0 4031 V
+-5758 0 V
+Z stroke
+1.000 UP
+LCb setrgbcolor
+6955 4182 M
+[ [(Helvetica) 200.0 0.0 true true 0 (M=1.75 M)]
+[(Helvetica) 120.0 -60.0 true true 0 (O)]
+[(Helvetica) -64.0 -60.0 true false 0 (O)]
+[(Helvetica) 120.0 -60.0 true true 0 (�)]
+[(Helvetica) 200.0 0.0 true true 0 (     R=13 km     B=0.76x10)]
+[(Helvetica) 160.0 100.0 true true 0 (8)]
+[(Helvetica) 200.0 0.0 true true 0 ( G     )]
+[(Helvetica) 200.0 0.0 true true 0 (D)]
+[(Helvetica) 160.0 -60.0 true true 0 (BL)]
+[(Helvetica) 200.0 0.0 true true 0 (=5.74)]
+] -66.7 MLshow
+1.000 UL
+LTb
+LCb setrgbcolor
+LCb setrgbcolor
+9719 256 M
+[ [(Symbol) 300.0 0.0 true true 0 (d)]
+[(Helvetica) 300.0 0.0 true true 0 ( r)]
+[(Helvetica) 240.0 -90.0 true true 0 (in)]
+[(Helvetica) 300.0 0.0 true true 0 ( \(10)]
+[(Helvetica) 240.0 150.0 true true 0 (6)]
+[(Helvetica) 300.0 0.0 true true 0 ( cm\))]
+] -100.0 MCshow
+LTb
+% Begin plot #1
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+7458 2728 CircleF
+7302 3248 CircleF
+8250 1974 CircleF
+8656 1658 CircleF
+8692 1442 CircleF
+8312 2533 CircleF
+8665 1963 CircleF
+7699 3524 CircleF
+8956 1748 CircleF
+8742 2152 CircleF
+8525 1985 CircleF
+8888 2229 CircleF
+8870 1694 CircleF
+8527 2968 CircleF
+8231 3435 CircleF
+8914 2477 CircleF
+8474 3295 CircleF
+8949 2664 CircleF
+8965 2218 CircleF
+9085 1430 CircleF
+9097 2709 CircleF
+9178 2292 CircleF
+8955 1941 CircleF
+9141 1725 CircleF
+8725 3690 CircleF
+9301 2682 CircleF
+9050 1733 CircleF
+9100 3508 CircleF
+9324 2063 CircleF
+9358 2930 CircleF
+9200 1559 CircleF
+9202 1827 CircleF
+9242 1585 CircleF
+9119 3601 CircleF
+9605 2503 CircleF
+9046 3605 CircleF
+9308 1649 CircleF
+9636 1895 CircleF
+9772 2066 CircleF
+9328 1783 CircleF
+9793 1919 CircleF
+9625 2026 CircleF
+9899 2001 CircleF
+9638 1500 CircleF
+9952 1575 CircleF
+10132 2152 CircleF
+10503 3266 CircleF
+10881 3360 CircleF
+10208 2100 CircleF
+10090 1795 CircleF
+10170 1855 CircleF
+11125 1581 CircleF
+11159 1659 CircleF
+11145 1842 CircleF
+11298 1860 CircleF
+11197 1730 CircleF
+11259 1723 CircleF
+11295 1979 CircleF
+11227 1515 CircleF
+11133 1673 CircleF
+11086 1663 CircleF
+11128 1535 CircleF
+11273 1800 CircleF
+11389 1903 CircleF
+11297 1843 CircleF
+11245 1915 CircleF
+11217 1794 CircleF
+11180 1647 CircleF
+11352 1632 CircleF
+11386 1933 CircleF
+11112 1415 CircleF
+11285 1919 CircleF
+11230 1536 CircleF
+11362 1630 CircleF
+11127 1783 CircleF
+11398 1920 CircleF
+11141 1763 CircleF
+11211 1496 CircleF
+11108 1753 CircleF
+11161 1510 CircleF
+11300 1772 CircleF
+11120 1719 CircleF
+11270 1691 CircleF
+11376 1740 CircleF
+11217 1475 CircleF
+11106 1805 CircleF
+11443 2047 CircleF
+11050 1672 CircleF
+11084 1761 CircleF
+11239 1632 CircleF
+11271 1457 CircleF
+11152 1953 CircleF
+11284 1932 CircleF
+11224 1445 CircleF
+11290 1699 CircleF
+11256 1839 CircleF
+11210 1430 CircleF
+11266 1962 CircleF
+11191 1427 CircleF
+11082 1724 CircleF
+11300 1811 CircleF
+11068 1566 CircleF
+11382 1665 CircleF
+11248 1884 CircleF
+11098 1499 CircleF
+11164 1694 CircleF
+11088 1491 CircleF
+11116 1747 CircleF
+11116 1991 CircleF
+11032 1414 CircleF
+11328 1882 CircleF
+11011 1468 CircleF
+11092 1766 CircleF
+11175 1976 CircleF
+11041 1551 CircleF
+11073 1934 CircleF
+11241 1693 CircleF
+11298 1572 CircleF
+11196 1524 CircleF
+11124 1812 CircleF
+11119 1982 CircleF
+11133 1862 CircleF
+11151 1863 CircleF
+11154 1812 CircleF
+11054 1529 CircleF
+11094 1622 CircleF
+11061 1497 CircleF
+11146 1799 CircleF
+11192 1779 CircleF
+11154 1834 CircleF
+11546 1832 CircleF
+11591 2105 CircleF
+11606 1990 CircleF
+11612 2098 CircleF
+11166 1477 CircleF
+11143 1463 CircleF
+11195 1600 CircleF
+11610 1999 CircleF
+11529 2044 CircleF
+11545 1794 CircleF
+11534 1769 CircleF
+11446 1610 CircleF
+11602 2048 CircleF
+11482 1717 CircleF
+11226 1879 CircleF
+11602 1942 CircleF
+11609 1677 CircleF
+11564 1885 CircleF
+11515 1804 CircleF
+11511 1705 CircleF
+11420 1502 CircleF
+11208 1714 CircleF
+11444 1540 CircleF
+11545 1691 CircleF
+11524 1662 CircleF
+11512 2057 CircleF
+11444 1509 CircleF
+11573 1745 CircleF
+11507 1741 CircleF
+11575 2030 CircleF
+11595 1922 CircleF
+11583 2007 CircleF
+11536 2051 CircleF
+11436 1672 CircleF
+11127 1412 CircleF
+11582 1931 CircleF
+11273 1534 CircleF
+11235 1496 CircleF
+11537 1856 CircleF
+11530 1947 CircleF
+11525 2034 CircleF
+11369 1924 CircleF
+11550 1828 CircleF
+11640 1921 CircleF
+11614 1949 CircleF
+11372 1831 CircleF
+11277 1678 CircleF
+11429 1500 CircleF
+11507 1547 CircleF
+11520 1827 CircleF
+11489 1932 CircleF
+11562 1929 CircleF
+11332 1845 CircleF
+11558 1707 CircleF
+11168 1541 CircleF
+11614 2082 CircleF
+11611 1722 CircleF
+11509 1875 CircleF
+11510 1989 CircleF
+11281 1496 CircleF
+11554 1616 CircleF
+11482 1694 CircleF
+11540 1721 CircleF
+11491 1624 CircleF
+11194 1696 CircleF
+11408 1558 CircleF
+11304 1648 CircleF
+11561 1904 CircleF
+11619 2073 CircleF
+11471 1595 CircleF
+11305 1730 CircleF
+11496 1832 CircleF
+11642 2111 CircleF
+11251 1932 CircleF
+11669 2018 CircleF
+11601 2050 CircleF
+11606 1811 CircleF
+11536 1976 CircleF
+11522 2015 CircleF
+11167 1625 CircleF
+11291 1472 CircleF
+11302 1566 CircleF
+11549 1911 CircleF
+11575 1988 CircleF
+11449 1753 CircleF
+11510 2029 CircleF
+11138 1446 CircleF
+11635 2118 CircleF
+11475 1610 CircleF
+11608 1900 CircleF
+11332 1781 CircleF
+11618 2123 CircleF
+11660 2061 CircleF
+11286 1701 CircleF
+11526 1962 CircleF
+11283 1617 CircleF
+11542 1899 CircleF
+11548 1868 CircleF
+11497 1793 CircleF
+11669 2075 CircleF
+11602 1828 CircleF
+11528 1891 CircleF
+11527 1689 CircleF
+11614 1973 CircleF
+11559 1754 CircleF
+11473 1809 CircleF
+11198 1578 CircleF
+11226 1756 CircleF
+11469 2017 CircleF
+11464 1821 CircleF
+11192 1467 CircleF
+11626 1949 CircleF
+11131 1513 CircleF
+11228 1833 CircleF
+11553 1901 CircleF
+11576 1849 CircleF
+11513 1761 CircleF
+11230 1481 CircleF
+11284 1616 CircleF
+11673 2127 CircleF
+11455 1817 CircleF
+11552 1657 CircleF
+11334 1794 CircleF
+11340 1939 CircleF
+11365 1832 CircleF
+11491 1532 CircleF
+11581 1919 CircleF
+11479 1655 CircleF
+11653 2094 CircleF
+11292 1825 CircleF
+11565 1789 CircleF
+11227 1570 CircleF
+11225 1690 CircleF
+11485 1625 CircleF
+11298 1984 CircleF
+11149 1476 CircleF
+11533 1805 CircleF
+11611 1943 CircleF
+11327 1913 CircleF
+11584 1913 CircleF
+11335 1499 CircleF
+11585 1951 CircleF
+11136 1491 CircleF
+11239 1806 CircleF
+11526 1715 CircleF
+11643 2030 CircleF
+11124 1498 CircleF
+11532 1936 CircleF
+11360 1886 CircleF
+11679 2130 CircleF
+11280 1883 CircleF
+11508 1724 CircleF
+11360 1796 CircleF
+11537 1646 CircleF
+11204 1418 CircleF
+11325 1810 CircleF
+11293 1616 CircleF
+11242 1643 CircleF
+11489 1580 CircleF
+11575 1751 CircleF
+11202 1905 CircleF
+11325 1683 CircleF
+11598 2066 CircleF
+11219 1866 CircleF
+11183 1589 CircleF
+11180 1482 CircleF
+11407 1885 CircleF
+11493 1638 CircleF
+11214 1911 CircleF
+11667 2128 CircleF
+11246 1497 CircleF
+11580 1884 CircleF
+11235 1888 CircleF
+11367 2004 CircleF
+11362 1581 CircleF
+11476 1624 CircleF
+11374 1981 CircleF
+11645 2066 CircleF
+11648 1946 CircleF
+11212 1424 CircleF
+11138 1731 CircleF
+11326 1514 CircleF
+11304 1941 CircleF
+11321 1604 CircleF
+11268 1986 CircleF
+11546 1781 CircleF
+11584 1816 CircleF
+11566 1804 CircleF
+11210 1938 CircleF
+11267 1819 CircleF
+11453 1507 CircleF
+11507 1666 CircleF
+11167 1829 CircleF
+11556 1557 CircleF
+11295 1709 CircleF
+11180 1484 CircleF
+11251 1448 CircleF
+11657 2128 CircleF
+11549 1731 CircleF
+11184 1724 CircleF
+11161 1705 CircleF
+11233 1880 CircleF
+11532 1812 CircleF
+11585 1927 CircleF
+11324 1623 CircleF
+11514 1737 CircleF
+11248 1773 CircleF
+11526 1555 CircleF
+11226 1510 CircleF
+11629 1985 CircleF
+11191 1456 CircleF
+11190 1596 CircleF
+11338 1741 CircleF
+11146 1464 CircleF
+11247 1488 CircleF
+11334 1964 CircleF
+11560 1842 CircleF
+11281 1807 CircleF
+11267 1511 CircleF
+11405 1797 CircleF
+11286 1975 CircleF
+11347 1685 CircleF
+11441 1900 CircleF
+11201 1808 CircleF
+11193 1949 CircleF
+11087 1500 CircleF
+11592 1846 CircleF
+11159 1455 CircleF
+11178 1788 CircleF
+11296 1542 CircleF
+11193 1469 CircleF
+11534 1665 CircleF
+11248 1933 CircleF
+11182 1690 CircleF
+11279 1739 CircleF
+11350 1540 CircleF
+11377 2000 CircleF
+11292 1941 CircleF
+11339 1919 CircleF
+11292 1727 CircleF
+11627 2009 CircleF
+11368 1877 CircleF
+11178 1493 CircleF
+11056 1488 CircleF
+11106 1494 CircleF
+11291 1616 CircleF
+11173 1592 CircleF
+11101 1417 CircleF
+11115 1688 CircleF
+11153 1790 CircleF
+11295 1483 CircleF
+11564 1644 CircleF
+11647 2117 CircleF
+11075 1544 CircleF
+11190 1728 CircleF
+11245 1738 CircleF
+11131 1849 CircleF
+11210 1627 CircleF
+11329 1874 CircleF
+11198 1465 CircleF
+11358 1975 CircleF
+11184 1981 CircleF
+11222 1520 CircleF
+10801 1405 CircleF
+11372 1557 CircleF
+11603 1868 CircleF
+11172 1821 CircleF
+11225 1995 CircleF
+11144 1843 CircleF
+10976 1491 CircleF
+11247 1947 CircleF
+11139 1935 CircleF
+11207 1560 CircleF
+10846 1588 CircleF
+11127 1794 CircleF
+11208 1725 CircleF
+11171 1851 CircleF
+11151 1816 CircleF
+10839 1553 CircleF
+11222 1971 CircleF
+11304 1991 CircleF
+11272 1882 CircleF
+11222 1473 CircleF
+11208 1631 CircleF
+10878 1724 CircleF
+11043 1397 CircleF
+11140 1734 CircleF
+11164 1495 CircleF
+11057 1506 CircleF
+11081 1436 CircleF
+11276 1705 CircleF
+11155 1608 CircleF
+11114 1656 CircleF
+11033 1736 CircleF
+11150 1695 CircleF
+11013 1493 CircleF
+11124 1493 CircleF
+10998 1865 CircleF
+11108 1722 CircleF
+11074 1602 CircleF
+11167 1944 CircleF
+11121 1634 CircleF
+10809 1412 CircleF
+11052 1973 CircleF
+11005 1889 CircleF
+11088 1983 CircleF
+11091 1442 CircleF
+11087 1514 CircleF
+11139 1514 CircleF
+10932 1442 CircleF
+11117 1703 CircleF
+10977 1747 CircleF
+11070 1885 CircleF
+11118 1769 CircleF
+11067 1643 CircleF
+11191 1884 CircleF
+11051 1675 CircleF
+11111 1671 CircleF
+10997 1727 CircleF
+10859 1780 CircleF
+10992 1391 CircleF
+11093 1521 CircleF
+10997 1833 CircleF
+11084 1946 CircleF
+11130 1803 CircleF
+11120 1697 CircleF
+10899 1974 CircleF
+11139 1632 CircleF
+11174 1669 CircleF
+11021 1835 CircleF
+11020 1497 CircleF
+11062 1437 CircleF
+11047 1958 CircleF
+11118 1619 CircleF
+10993 1526 CircleF
+11167 1967 CircleF
+11108 1842 CircleF
+11095 1634 CircleF
+10837 1509 CircleF
+11116 1972 CircleF
+11021 1825 CircleF
+10857 1750 CircleF
+10965 1390 CircleF
+11017 1796 CircleF
+11088 1800 CircleF
+10858 1747 CircleF
+11136 1516 CircleF
+11055 1966 CircleF
+11019 1518 CircleF
+10959 1519 CircleF
+11123 1894 CircleF
+11173 1670 CircleF
+11049 1638 CircleF
+11074 1652 CircleF
+11148 1773 CircleF
+11121 1441 CircleF
+10863 1670 CircleF
+11044 1903 CircleF
+11028 1812 CircleF
+11018 1498 CircleF
+11113 1827 CircleF
+10448 1529 CircleF
+11228 1919 CircleF
+10713 1680 CircleF
+11086 1490 CircleF
+10786 1476 CircleF
+10865 1743 CircleF
+10828 1513 CircleF
+11086 1484 CircleF
+10471 1608 CircleF
+11078 1430 CircleF
+11160 1577 CircleF
+10863 1807 CircleF
+10881 1727 CircleF
+10835 1663 CircleF
+10770 1393 CircleF
+10500 1726 CircleF
+10882 1826 CircleF
+10761 1672 CircleF
+10868 1824 CircleF
+10616 1405 CircleF
+10844 1633 CircleF
+10428 1406 CircleF
+10933 1958 CircleF
+10663 1586 CircleF
+10757 1652 CircleF
+10897 1775 CircleF
+10521 1802 CircleF
+10806 1460 CircleF
+10731 1712 CircleF
+10504 1718 CircleF
+10889 1821 CircleF
+10864 1617 CircleF
+10701 1569 CircleF
+10659 1682 CircleF
+10825 1527 CircleF
+10749 1590 CircleF
+10742 1746 CircleF
+10706 1417 CircleF
+10839 1903 CircleF
+10738 1552 CircleF
+10811 1858 CircleF
+10594 1396 CircleF
+10706 1574 CircleF
+10814 1878 CircleF
+10679 1464 CircleF
+10611 1448 CircleF
+10816 1758 CircleF
+10655 1613 CircleF
+10820 1777 CircleF
+10814 1743 CircleF
+10748 1537 CircleF
+10703 1817 CircleF
+10744 1498 CircleF
+10764 1502 CircleF
+10763 1577 CircleF
+10812 1786 CircleF
+% End plot #1
+2.000 UL
+LTb
+LCb setrgbcolor
+1.000 UL
+LTB
+LCb setrgbcolor
+6840 4787 N
+0 -4031 V
+5758 0 V
+0 4031 V
+-5758 0 V
+Z stroke
+1.000 UP
+1.000 UL
+LTb
+LCb setrgbcolor
+stroke
+grestore
+end
+showpage
+%%Trailer
+%%DocumentFonts: Symbol Helvetica

@@ -1,0 +1,94 @@
+GAUSSIAN FIT
+
+*******************************************************************************
+Thu Nov 24 16:48:10 2016
+
+
+FIT:    data read from '1728-34_DNu_Nu1.dat' using 1:2
+        format = x:z
+        x range restricted to [500.000 : 950.000]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=y0+sqrt(2/pi)*A1/w1*exp(-2*(x-xc1)**2/w1**2)+sqrt(2/pi)*A2/w2*exp(-2*(x-xc2)**2/w2**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   y0            A1            w1            xc1           A2            w2            xc2          
+   0 1.6779232842e+07   0.00e+00  4.28e+03   -5.309250e+03   9.314527e+03   9.239896e+01   8.238509e+02   3.864435e+07   4.348247e+03   6.176407e+02
+ 473 3.1836269870e+01  -9.95e-01  4.28e-01   -7.509888e+03   4.676566e+03   7.878250e+01   8.233920e+02   3.433183e+07   3.484041e+03   6.382756e+02
+
+After 473 iterations the fit converged.
+final sum of squares of residuals : 31.8363
+rel. change during last iteration : -9.955e-06
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 5.64236
+variance of residuals (reduced chisquare) = WSSR/ndf   : 31.8363
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+y0              = -7509.89         +/- 1.746e+06    (2.324e+04%)
+A1              = 4676.57          +/- 6234         (133.3%)
+w1              = 78.7825          +/- 55.85        (70.89%)
+xc1             = 823.392          +/- 10.47        (1.272%)
+A2              = 3.43318e+07      +/- 1.146e+10    (3.339e+04%)
+w2              = 3484.04          +/- 3.903e+05    (1.12e+04%)
+xc2             = 638.276          +/- 27.59        (4.322%)
+
+correlation matrix of the fit parameters:
+                y0     A1     w1     xc1    A2     w2     xc2    
+y0              1.000 
+A1              0.906  1.000 
+w1              0.760  0.946  1.000 
+xc1             0.439  0.660  0.730  1.000 
+A2             -1.000 -0.906 -0.760 -0.439  1.000 
+w2             -1.000 -0.906 -0.760 -0.439  1.000  1.000 
+xc2            -0.297 -0.530 -0.583 -0.274  0.297  0.297  1.000 
+
+LORENTZIAN FIT
+*******************************************************************************
+Thu Nov 24 16:48:13 2016
+
+
+FIT:    data read from '1728-34_DNu_Nu1.dat' using 1:2
+        format = x:z
+        x range restricted to [500.000 : 950.000]
+        #datapoints = 8
+        residuals are weighted equally (unit weight)
+
+function used for fitting: f(x)
+	f(x)=y0+2*A1/pi*w1/(4*(x-xc1)**2+w1**2)+2*A2/pi*w2/(4*(x-xc2)**2+w2**2)
+fitted parameters initialized with current variable values
+
+iter      chisq       delta/lim  lambda   y0            A1            w1            xc1           A2            w2            xc2          
+   0 2.4414129908e+01   0.00e+00  3.61e+03   -5.309250e+03   9.314527e+03   9.239896e+01   8.238509e+02   3.864435e+07   4.348247e+03   6.176407e+02
+ 140 2.3092465547e+01  -9.97e-01  3.61e-01   -6.780300e+03   8.777505e+03   8.459628e+01   8.232997e+02   5.456620e+07   4.872818e+03   6.207997e+02
+
+After 140 iterations the fit converged.
+final sum of squares of residuals : 23.0925
+rel. change during last iteration : -9.96947e-06
+
+degrees of freedom    (FIT_NDF)                        : 1
+rms of residuals      (FIT_STDFIT) = sqrt(WSSR/ndf)    : 4.80546
+variance of residuals (reduced chisquare) = WSSR/ndf   : 23.0925
+
+Final set of parameters            Asymptotic Standard Error
+=======================            ==========================
+y0              = -6780.3          +/- 9.838e+05    (1.451e+04%)
+A1              = 8777.51          +/- 2.236e+04    (254.7%)
+w1              = 84.5963          +/- 196          (231.6%)
+xc1             = 823.3            +/- 7.646        (0.9287%)
+A2              = 5.45662e+07      +/- 1.136e+10    (2.081e+04%)
+w2              = 4872.82          +/- 3.421e+05    (7020%)
+xc2             = 620.8            +/- 56.57        (9.112%)
+
+correlation matrix of the fit parameters:
+                y0     A1     w1     xc1    A2     w2     xc2    
+y0              1.000 
+A1              0.957  1.000 
+w1              0.913  0.989  1.000 
+xc1             0.731  0.822  0.840  1.000 
+A2             -1.000 -0.957 -0.913 -0.731  1.000 
+w2             -1.000 -0.957 -0.913 -0.731  1.000  1.000 
+xc2            -0.686 -0.838 -0.870 -0.683  0.686  0.685  1.000 

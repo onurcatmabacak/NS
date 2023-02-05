@@ -1,0 +1,1279 @@
+QtiPlot 0.9.8 project file
+<scripting-lang>	muParser
+<windows>	2
+<table>
+Table2	11	3	30.11.16 18:54
+geometry	2	3	368	257	
+header	5[X]	9[Y]	18[Y]
+ColWidth	100	100	100	
+<com>
+</com>
+ColType	0;0/13	0;0/13	0;0/13
+ReadOnlyColumn	0	0	0
+HiddenColumn	0	0	0
+Comments				
+WindowLabel	/home/onur/Dropbox/Delta_Nu_Variable_Fit/4U_1636-54/1636-54_DNu_Nu1.dat	2
+<data>
+0	644.397	326.786	5.2295
+1	687.706	325	11.352
+2	723.288	329.592	8.6735
+3	768.968	288.265	31.1225
+4	792.921	258.163	11.4795
+5	841.079	261.99	9.949
+6	856.474	257.398	7.5255
+7	871.884	250.765	11.097
+8	885.925	240.051	4.847
+9	901.928	248.469	2.934
+10	913.142	242.602	3.4435
+</data>
+</table>
+<multiLayer>
+Graph1	1	1	06.12.16 16:08
+geometry	370	0	537	467	active
+WindowLabel		2
+Margins	5	5	5	5
+Spacing	5	5
+LayerCanvasSize	400	300
+Alignement	0	0
+<AlignPolicy>0</AlignPolicy>
+<CommonAxes>0</CommonAxes>
+<graph>
+ggeometry	5	5	519	404
+<PageGeometry>0.0094518	0.0119332	0.981096	0.9642</PageGeometry>
+PlotTitle	Title	#000000	4228
+<Antialiasing>0</Antialiasing>
+<Autoscaling>1</Autoscaling>
+<ScaleFonts>1</ScaleFonts>
+<GridOnTop>0</GridOnTop>
+<MissingDataGap>1</MissingDataGap>
+Background	#ffffff	0
+Margin	0
+Border	0	#000000
+grid	0	0	0	0	#0000ff	0	0.5	#a0a0a4	2	0.4	#0000ff	0	0.5	#a0a0a4	2	0.4	0	0	2	0	0
+EnabledAxes	1	1	1	1	
+AxesTitles	%(?X)	%(?Y)		%(?Y)	
+AxesTitleColors	#000000	#000000	#000000	#000000	
+AxesTitleAlignment	5124	5124	5124	5124
+AxesTitleDistance	2	2	2	2
+InvertedTitle	0	0	0	0
+TitleFont	Ubuntu	13	75	0	0	0
+ScaleFont0	Ubuntu	11	75	0	0	0
+ScaleFont1	Ubuntu	11	75	0	0	0
+ScaleFont2	Ubuntu	11	75	0	0	0
+ScaleFont3	Ubuntu	11	75	0	0	0
+AxisFont0	Ubuntu	11	50	0	0	0
+AxisFont1	Ubuntu	11	50	0	0	0
+AxisFont2	Ubuntu	11	50	0	0	0
+AxisFont3	Ubuntu	11	50	0	0	0
+AxesColors	#000000	#000000	#000000	#000000
+AxesNumberColors	#d3dae3	#d3dae3	#d3dae3	#d3dae3
+AxesBaseline	0	0	0	0	
+CanvasBackground	#ffffff	0
+curve	Table2_5	Table2_9	1	0	#000000	0	1	7	1	#000000	#000000	0	#000000	14	1	2	0	0	9	1
+ErrorBars	1	Table2_5	Table2_9	Table2_18	1	8	#000000	1	1	1	0
+<Function>
+<Type>0</Type>
+<Title>BoltzmannFit1</Title>
+<Expression>A2+(A1-A2)/(1+exp((x-x0)/dx))</Expression>
+<Variable>x</Variable>
+<Range>644.397	901.928</Range>
+<Points>100</Points>
+<Constant>A1	248.21686357138</Constant>
+<Constant>A2	327.404541742167</Constant>
+<Constant>dx	-11.1484539269914</Constant>
+<Constant>x0	771.246894760101</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>GaussFit1</Title>
+<Expression>y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)</Expression>
+<Variable>x</Variable>
+<Range>644.397	901.928</Range>
+<Points>100</Points>
+<Constant>A	16269.3636206856</Constant>
+<Constant>w	143.397537534023</Constant>
+<Constant>xc	680.374402047736</Constant>
+<Constant>y0	246.217090541169</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>LorentzFit1</Title>
+<Expression>y0+2*A/PI*w/(4*(x-xc)^2+w^2)</Expression>
+<Variable>x</Variable>
+<Range>644.397	901.928</Range>
+<Points>100</Points>
+<Constant>A	33170.2197031585</Constant>
+<Constant>w	191.721434001696</Constant>
+<Constant>xc	679.6131819155</Constant>
+<Constant>y0	228.679723772568</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>GaussFit2</Title>
+<Expression>y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)</Expression>
+<Variable>x</Variable>
+<Range>644.397	901.928</Range>
+<Points>100</Points>
+<Constant>A1	15201.6281316771</Constant>
+<Constant>A2	376.55604771443</Constant>
+<Constant>w1	129.427370284144</Constant>
+<Constant>w2	22.3986302222831</Constant>
+<Constant>xc1	681.057444038287</Constant>
+<Constant>xc2	846.938027498184</Constant>
+<Constant>y0	245.822393548639</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>Peak1</Title>
+<Expression>y0 + sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)</Expression>
+<Variable>x</Variable>
+<Range>644.397	901.928</Range>
+<Points>100</Points>
+<Constant>A1	15201.6281316771</Constant>
+<Constant>w1	129.427370284144</Constant>
+<Constant>xc1	681.057444038287</Constant>
+<Constant>y0	245.822393548639</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#00ff00</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>Peak2</Title>
+<Expression>y0 + sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)</Expression>
+<Variable>x</Variable>
+<Range>644.397	901.928</Range>
+<Points>100</Points>
+<Constant>A2	376.55604771443</Constant>
+<Constant>w2	22.3986302222831</Constant>
+<Constant>xc2	846.938027498184</Constant>
+<Constant>y0	245.822393548639</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#00ff00</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>Peak3</Title>
+<Expression>y0 + 2*A1/PI*w1/(4*(x-xc1)^2+w1^2)</Expression>
+<Variable>x</Variable>
+<Range>644.397	901.928</Range>
+<Points>100</Points>
+<Constant>A1	49156.066607823</Constant>
+<Constant>w1	258.10681267268</Constant>
+<Constant>xc1	683.23946738883</Constant>
+<Constant>y0	215.069782670202</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#00ff00</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>Peak4</Title>
+<Expression>y0 + 2*A2/PI*w2/(4*(x-xc2)^2+w2^2)</Expression>
+<Variable>x</Variable>
+<Range>644.397	901.928</Range>
+<Points>100</Points>
+<Constant>A2	1556.12586880525</Constant>
+<Constant>w2	34.1204835633353</Constant>
+<Constant>xc2	797.24224112618</Constant>
+<Constant>y0	215.069782670202</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#00ff00</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>LorentzFit2</Title>
+<Expression>y0+2*A1/PI*w1/(4*(x-xc1)^2+w1^2)+2*A2/PI*w2/(4*(x-xc2)^2+w2^2)</Expression>
+<Variable>x</Variable>
+<Range>644.397	901.928</Range>
+<Points>100</Points>
+<Constant>A1	49156.6694740819</Constant>
+<Constant>A2	1556.14527254304</Constant>
+<Constant>w1	258.109438520767</Constant>
+<Constant>w2	34.1176058029363</Constant>
+<Constant>xc1	683.239304314184</Constant>
+<Constant>xc2	797.245111011516</Constant>
+<Constant>y0	215.06926168931</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#ff0000</Color>
+	<Style>0</Style>
+	<Width>2</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>Peak5</Title>
+<Expression>y0 + 2*A1/PI*w1/(4*(x-xc1)^2+w1^2)</Expression>
+<Variable>x</Variable>
+<Range>644.397	901.928</Range>
+<Points>100</Points>
+<Constant>A1	49156.6694740819</Constant>
+<Constant>w1	258.109438520767</Constant>
+<Constant>xc1	683.239304314184</Constant>
+<Constant>y0	215.06926168931</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#00ff00</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+<Function>
+<Type>0</Type>
+<Title>Peak6</Title>
+<Expression>y0 + 2*A2/PI*w2/(4*(x-xc2)^2+w2^2)</Expression>
+<Variable>x</Variable>
+<Range>644.397	901.928</Range>
+<Points>100</Points>
+<Constant>A2	1556.14527254304</Constant>
+<Constant>w2	34.1176058029363</Constant>
+<Constant>xc2	797.245111011516</Constant>
+<Constant>y0	215.06926168931</Constant>
+<Style>0</Style>
+<LineStyle>1</LineStyle>
+<Pen>
+	<Color>#00ff00</Color>
+	<Style>0</Style>
+	<Width>1</Width>
+</Pen>
+<xAxis>2</xAxis>
+<yAxis>0</yAxis>
+<CurveType>0</CurveType>
+<Visible>1</Visible>
+</Function>
+scale	0	200	360	0	9	5	0	0
+scale	1	200	360	0	9	5	0	0
+scale	2	600	950	0	8	5	0	0
+scale	3	600	950	0	8	5	0	0
+LabelsFormat	0	6	0	6	0	6	0	6
+AxisType	0	0	0	0	
+MajorTicks	1	1	1	1
+MinorTicks	1	1	1	1
+TicksLength	5	9
+DrawAxesBackbone	1	1	1	1	1
+AxesLineWidth	1
+LabelsRotation	0	0	0	0
+LabelsPrefix				
+LabelsSuffix				
+TickLabelsSpace	4	4	4	4
+ShowTicksPolicy	0	0	0	0
+EnabledTickLabels	1	1	1	1
+<Legend>
+<Frame>1</Frame>
+<Color>#000000</Color>
+<FrameWidth>1</FrameWidth>
+<LineStyle>0</LineStyle>
+<x>608.77192982456</x>
+<y>240.06688963211</y>
+<right>678.947368421053</right>
+<bottom>228.829431438127</bottom>
+<attachTo>1</attachTo>
+<onTop>1</onTop>
+<visible>1</visible>
+<Text>
+\l(1)%(1)
+\l(3)%(3)
+\l(4)%(4)
+\l(5)%(5)
+\l(6)%(6)
+\l(7)%(7)
+\l(8)%(8)
+\l(9)%(9)
+\l(10)%(10)
+\l(11)%(11)
+\l(12)%(12)
+\l(13)%(13)
+</Text>
+<Font>Ubuntu	11	50	0	0	0</Font>
+<TextColor>#000000</TextColor>
+<Background>#ffffff</Background>
+<Alpha>0</Alpha>
+<Angle>0</Angle>
+<AutoUpdate>1</AutoUpdate>
+<TeXOutput>0</TeXOutput>
+</Legend>
+</graph>
+<LinkXAxes>0</LinkXAxes>
+<ScaleLayers>1</ScaleLayers>
+</multiLayer>
+<open>1</open>
+<log>
+[11.09.2016 20:04	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.440000000000000e+02 to x = 9.130000000000000e+02
+A1 (area 1) = 1.610440282584254e+04 +/- 3.231713288670921e+02
+xc1 (center 1) = 6.817716757242644e+02 +/- 1.032646451902993e+00
+w1 (width 1) = 1.373373138838035e+02 +/- 2.457466272386249e+00
+A2 (area 2) = 5.528821336058626e+02 +/- 8.667267425013974e+01
+xc2 (center 2) = 8.474397372584245e+02 +/- 2.143036773876974e+00
+w2 (width 2) = 3.194571925250201e+01 +/- 5.130321763098793e+00
+y0 (offset) = 2.423933029410531e+02 +/- 7.098935935936622e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.488570835542502e+01
+R^2 = 0.97019112676435
+Adjusted R^2 = 0.900637089214499
+RMSE (Root Mean Squared Error) = 9.74092954267841
+RSS (Residual Sum of Squares) = 379.5428334217
+---------------------------------------------------------------------------------------
+Iterations = 17
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.610440282584254e+04	6.817716757242644e+02	1.373373138838035e+02	9.356127633718897e+01
+2	5.528821336058626e+02	8.474397372584245e+02	3.194571925250201e+01	1.380892741406393e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:05	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.440000000000000e+02 to x = 9.130000000000000e+02
+A1 (area 1) = 1.610455649444787e+04 +/- 3.231763593196712e+02
+xc1 (center 1) = 6.817712815914834e+02 +/- 1.032666493167127e+00
+w1 (width 1) = 1.373384383683797e+02 +/- 2.457509657507874e+00
+A2 (area 2) = 5.528704806983113e+02 +/- 8.666354004087404e+01
+xc2 (center 2) = 8.474402883241327e+02 +/- 2.142731636936243e+00
+w2 (width 2) = 3.194443675677276e+01 +/- 5.129798999357178e+00
+y0 (offset) = 2.423931117190256e+02 +/- 7.098838944172965e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.488570841563036e+01
+R^2 = 0.970191126745436
+Adjusted R^2 = 0.900637089151453
+RMSE (Root Mean Squared Error) = 9.74092954576874
+RSS (Residual Sum of Squares) = 379.542833662522
+---------------------------------------------------------------------------------------
+Iterations = 18
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.610455649444787e+04	6.817712815914834e+02	1.373384383683797e+02	9.356140304312582e+01
+2	5.528704806983113e+02	8.474402883241327e+02	3.194443675677276e+01	1.380919075304450e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:06	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.440000000000000e+02 to x = 9.130000000000000e+02
+A1 (area 1) = 1.300413236812366e+04 +/- 4.994254869096834e+02
+xc1 (center 1) = 6.808473448745140e+02 +/- 1.051293435163545e+00
+w1 (width 1) = 1.267858782862303e+02 +/- 3.452918489566280e+00
+A2 (area 2) = 5.412713551652764e+02 +/- 1.196824185848253e+02
+xc2 (center 2) = 8.953981673035250e+02 +/- 1.515501664653796e+00
+w2 (width 2) = 3.587768518108125e+01 +/- 5.640901706001640e+00
+y0 (offset) = 2.539418689615164e+02 +/- 1.400155042361860e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.241408449141027e+02
+R^2 = 0.860595838686089
+Adjusted R^2 = 0.535319462286965
+RMSE (Root Mean Squared Error) = 21.0651953496885
+RSS (Residual Sum of Squares) = 1,774.96982048215
+---------------------------------------------------------------------------------------
+Iterations = 48
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.300413236812366e+04	6.808473448745140e+02	1.267858782862303e+02	8.183716186228880e+01
+2	5.412713551652764e+02	8.953981673035250e+02	3.587768518108125e+01	1.203734453077117e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:06	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.440000000000000e+02 to x = 9.130000000000000e+02
+A1 (area 1) = 3.992457693237515e+11 +/- 2.803796638675994e+14
+xc1 (center 1) = -3.924367077413126e+03 +/- 2.146229869873342e+05
+w1 (width 1) = 1.698753386396032e+03 +/- 3.998075852806083e+04
+A2 (area 2) = 3.311077690391943e+03 +/- 8.195286215008560e+02
+xc2 (center 2) = 7.219074763254192e+02 +/- 1.573261694287818e+00
+w2 (width 2) = 5.973914260184518e+01 +/- 5.789195783158860e+00
+y0 (offset) = 2.274668562779444e+02 +/- 5.210684963226546e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6.275822464042819e+01
+R^2 = 0.980284154534701
+Adjusted R^2 = 0.93428051511567
+RMSE (Root Mean Squared Error) = 7.92200887656838
+RSS (Residual Sum of Squares) = 251.032898561713
+---------------------------------------------------------------------------------------
+Iterations = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	3.992457693237515e+11	-3.924367077413126e+03	1.698753386396032e+03	1.875210597726039e+08
+2	3.311077690391943e+03	7.219074763254192e+02	5.973914260184518e+01	4.422322875288373e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:07	Plot: ''Graph1'']
+Lorentz Fit(2) multi-peak of dataset: Table1_2, using function: y0+2*A1/PI*w1/(4*(x-xc1)^2+w1^2)+2*A2/PI*w2/(4*(x-xc2)^2+w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.440000000000000e+02 to x = 9.130000000000000e+02
+A1 (area 1) = 7.417844690368080e+04 +/- 1.313039385735596e+04
+xc1 (center 1) = 6.868709396424227e+02 +/- 2.916764051689661e+00
+w1 (width 1) = 3.321304210576594e+02 +/- 3.319949861446866e+01
+A2 (area 2) = 2.618508044588044e+03 +/- 8.856817274669144e+02
+xc2 (center 2) = 7.929833022866695e+02 +/- 3.033035059180989e+00
+w2 (width 2) = 4.785756829540340e+01 +/- 1.060294456264669e+01
+y0 (offset) = 1.917749266350259e+02 +/- 1.065772217906115e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4.839646957392947e+01
+R^2 = 0.476801812777045
+Adjusted R^2 = -0.743993957409851
+RMSE (Root Mean Squared Error) = 40.8094495814145
+RSS (Residual Sum of Squares) = 6,661.64470055206
+---------------------------------------------------------------------------------------
+Iterations = 19
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	7.417844690368080e+04	6.868709396424227e+02	3.321304210576594e+02	1.421835007826753e+02
+2	2.618508044588044e+03	7.929833022866695e+02	4.785756829540340e+01	3.483240069781046e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:09	Plot: ''Graph1'']
+Non-linear Fit of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 = -3.7652999313569e+03 +/- 1.2806881396472e+08
+A2 = -3.5366145777346e+03 +/- 1.0126724192706e+08
+w1 = -5.1848210223573e+01 +/- 2.6890883600102e+05
+w2 = -4.0717151287135e+01 +/- 1.8081410542374e+07
+xc1 = 7.1881585576621e+02 +/- 6.4585974446603e+05
+xc2 = 6.5837083177953e+02 +/- 5.6692440043259e+06
+y0 = 2.5940406450551e+02 +/- 9.5067919247181e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 4.3445479256526e+02
+R^2 = 0.8635136095555
+Adjusted R^2 = 0.5450453651851
+RMSE (Root Mean Squared Error) = 20.84357916878
+RSS (Residual Sum of Squares) = 1,737.819170261
+---------------------------------------------------------------------------------------
+Iterations = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+[11.09.2016 20:12	Plot: ''Graph1'']
+Gauss Fit of dataset: Table1_2, using function: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A (area) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc (center) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w (width) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+y0 (offset) = 2.7536363636364e+02 +/- 1.2859149784333e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.8189350649351e+03
+R^2 = 0
+Adjusted R^2 = -0.6666666666667
+RMSE (Root Mean Squared Error) = 42.64897495761
+RSS (Residual Sum of Squares) = 12,732.54545455
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = cannot reach the specified tolerance in X
+---------------------------------------------------------------------------------------
+[11.09.2016 20:12	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc1 (center 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w1 (width 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+A2 (area 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc2 (center 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w2 (width 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+y0 (offset) = 2.7536363636364e+02 +/- 1.7011056200538e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.1831363636364e+03
+R^2 = 0
+Adjusted R^2 = -2.333333333333
+RMSE (Root Mean Squared Error) = 56.41929070483
+RSS (Residual Sum of Squares) = 12,732.54545455
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = cannot reach the specified tolerance in X
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+2	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:13	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc1 (center 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w1 (width 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+A2 (area 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc2 (center 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w2 (width 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+y0 (offset) = 2.7536363636364e+02 +/- 1.7011056200538e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.1831363636364e+03
+R^2 = 0
+Adjusted R^2 = -2.333333333333
+RMSE (Root Mean Squared Error) = 56.41929070483
+RSS (Residual Sum of Squares) = 12,732.54545455
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = cannot reach the specified tolerance in X
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+2	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:13	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc1 (center 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w1 (width 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+A2 (area 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc2 (center 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w2 (width 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+y0 (offset) = 2.7536363636364e+02 +/- 1.7011056200538e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.1831363636364e+03
+R^2 = 0
+Adjusted R^2 = -2.333333333333
+RMSE (Root Mean Squared Error) = 56.41929070483
+RSS (Residual Sum of Squares) = 12,732.54545455
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = cannot reach the specified tolerance in X
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+2	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:14	Plot: ''Graph1'']
+Lorentz Fit(3) multi-peak of dataset: Table1_2, using function: y0+2*A1/PI*w1/(4*(x-xc1)^2+w1^2)+2*A2/PI*w2/(4*(x-xc2)^2+w2^2)+2*A3/PI*w3/(4*(x-xc3)^2+w3^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 3.0758411758975e+08 +/- 2.5215421022705e+33
+xc1 (center 1) = 3.9802801708758e+11 +/- 1.7000514753080e+36
+w1 (width 1) = 3.0754008791776e+08 +/- 3.0429993905448e+34
+A2 (area 2) = 3.0758410026893e+08 +/- 2.1952277594929e+34
+xc2 (center 2) = 3.9802801001915e+11 +/- 7.8003109799175e+36
+w2 (width 2) = 3.0754007572532e+08 +/- 1.3699978046207e+34
+A3 (area 3) = 3.0758400791366e+08 +/- 1.1463354302732e+34
+xc3 (center 3) = 3.9802799706850e+11 +/- 1.1995394858945e+37
+w3 (width 3) = 3.0754008307080e+08 +/- 2.7226602598364e+33
+y0 (offset) = 2.7536363613699e+02 +/- 9.1186869293926e+17
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.2732545454545e+04
+R^2 = 1.110223024625e-16
+RMSE (Root Mean Squared Error) = 112.8385814097
+RSS (Residual Sum of Squares) = 12,732.54545455
+---------------------------------------------------------------------------------------
+Iterations = 7
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	3.0758411758975e+08	3.9802801708758e+11	3.0754008791776e+08	6.3671091547659e-01
+2	3.0758410026893e+08	3.9802801001915e+11	3.0754007572532e+08	6.3671090486427e-01
+3	3.0758400791366e+08	3.9802799706850e+11	3.0754008307080e+08	6.3671069847771e-01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:14	Plot: ''Graph1'']
+Lorentz Fit(2) multi-peak of dataset: Table1_2, using function: y0+2*A1/PI*w1/(4*(x-xc1)^2+w1^2)+2*A2/PI*w2/(4*(x-xc2)^2+w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 6.2456714383028e+08 +/- 7.9828849522874e+32
+xc1 (center 1) = 3.6045476395923e+11 +/- 1.4907684099753e+35
+w1 (width 1) = 6.2453913769519e+08 +/- 2.6917335064285e+32
+A2 (area 2) = 6.2456695515063e+08 +/- 3.9579521351536e+32
+xc2 (center 2) = 3.6045473972499e+11 +/- 6.7280387285587e+34
+w2 (width 2) = 6.2453909915309e+08 +/- 1.1877183710480e+32
+y0 (offset) = 2.7536363581904e+02 +/- 1.8766931284741e+17
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.1831363636364e+03
+R^2 = 0
+Adjusted R^2 = -2.333333333333
+RMSE (Root Mean Squared Error) = 56.41929070483
+RSS (Residual Sum of Squares) = 12,732.54545455
+---------------------------------------------------------------------------------------
+Iterations = 6
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	6.2456714383028e+08	3.6045476395923e+11	6.2453913769519e+08	6.3664832023316e-01
+2	6.2456695515063e+08	3.6045473972499e+11	6.2453909915309e+08	6.3664816719320e-01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:15	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc1 (center 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w1 (width 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+A2 (area 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc2 (center 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w2 (width 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+y0 (offset) = 2.7536363636364e+02 +/- 1.7011056200538e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.1831363636364e+03
+R^2 = 0
+Adjusted R^2 = -2.333333333333
+RMSE (Root Mean Squared Error) = 56.41929070483
+RSS (Residual Sum of Squares) = 12,732.54545455
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = cannot reach the specified tolerance in X
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+2	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:15	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc1 (center 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w1 (width 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+A2 (area 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc2 (center 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w2 (width 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+y0 (offset) = 2.7536363636364e+02 +/- 1.7011056200538e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.1831363636364e+03
+R^2 = 0
+Adjusted R^2 = -2.333333333333
+RMSE (Root Mean Squared Error) = 56.41929070483
+RSS (Residual Sum of Squares) = 12,732.54545455
+---------------------------------------------------------------------------------------
+Iterations = 3
+Status = cannot reach the specified tolerance in X
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+2	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:15	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc1 (center 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w1 (width 1) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+A2 (area 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+xc2 (center 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+w2 (width 2) = 1.0000000000000e+00 +/- 0.0000000000000e+00
+y0 (offset) = 2.7536363636360e+02 +/- 1.7011056200538e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.1831363636364e+03
+R^2 = 1.110223024625e-16
+Adjusted R^2 = -2.333333333333
+RMSE (Root Mean Squared Error) = 56.41929070483
+RSS (Residual Sum of Squares) = 12,732.54545455
+---------------------------------------------------------------------------------------
+Iterations = 1
+Status = cannot reach the specified tolerance in F
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+2	1.0000000000000e+00	1.0000000000000e+00	1.0000000000000e+00	7.9788456080287e-01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:16	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 4.2916694798985e+11 +/- 3.0434305218686e+14
+xc1 (center 1) = -3.9464502484286e+03 +/- 2.1676215833416e+05
+w1 (width 1) = 1.7028610149995e+03 +/- 4.0282173760773e+04
+A2 (area 2) = 3.3111537568635e+03 +/- 8.1953841200219e+02
+xc2 (center 2) = 7.2190733999833e+02 +/- 1.5732595805350e+00
+w2 (width 2) = 5.9739578603369e+01 +/- 5.7891693071813e+00
+y0 (offset) = 2.2746158808790e+02 +/- 5.2154547365107e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6.2757818116007e+01
+R^2 = 0.9802842822466
+Adjusted R^2 = 0.934280940822
+RMSE (Root Mean Squared Error) = 7.921983218614
+RSS (Residual Sum of Squares) = 251.031272464
+---------------------------------------------------------------------------------------
+Iterations = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	4.2916694798985e+11	-3.9464502484286e+03	1.7028610149995e+03	2.0108844984515e+08
+2	3.3111537568635e+03	7.2190733999833e+02	5.9739578603369e+01	4.4223921942710e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:18	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 1.6104556494448e+04 +/- 3.2317635931967e+02
+xc1 (center 1) = 6.8177128159148e+02 +/- 1.0326664931671e+00
+w1 (width 1) = 1.3733843836838e+02 +/- 2.4575096575079e+00
+A2 (area 2) = 5.5287048069831e+02 +/- 8.6663540040874e+01
+xc2 (center 2) = 8.4744028832413e+02 +/- 2.1427316369362e+00
+w2 (width 2) = 3.1944436756773e+01 +/- 5.1297989993572e+00
+y0 (offset) = 2.4239311171903e+02 +/- 7.0988389441730e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.4885708415630e+01
+R^2 = 0.9701911267454
+Adjusted R^2 = 0.9006370891515
+RMSE (Root Mean Squared Error) = 9.740929545769
+RSS (Residual Sum of Squares) = 379.5428336625
+---------------------------------------------------------------------------------------
+Iterations = 18
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.6104556494448e+04	6.8177128159148e+02	1.3733843836838e+02	9.3561403043126e+01
+2	5.5287048069831e+02	8.4744028832413e+02	3.1944436756773e+01	1.3809190753044e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:20	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 1.6104556494448e+04 +/- 3.2317635931967e+02
+xc1 (center 1) = 6.8177128159148e+02 +/- 1.0326664931671e+00
+w1 (width 1) = 1.3733843836838e+02 +/- 2.4575096575079e+00
+A2 (area 2) = 5.5287048069831e+02 +/- 8.6663540040874e+01
+xc2 (center 2) = 8.4744028832413e+02 +/- 2.1427316369362e+00
+w2 (width 2) = 3.1944436756773e+01 +/- 5.1297989993572e+00
+y0 (offset) = 2.4239311171903e+02 +/- 7.0988389441730e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.4885708415630e+01
+R^2 = 0.9701911267454
+Adjusted R^2 = 0.9006370891515
+RMSE (Root Mean Squared Error) = 9.740929545769
+RSS (Residual Sum of Squares) = 379.5428336625
+---------------------------------------------------------------------------------------
+Iterations = 18
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.6104556494448e+04	6.8177128159148e+02	1.3733843836838e+02	9.3561403043126e+01
+2	5.5287048069831e+02	8.4744028832413e+02	3.1944436756773e+01	1.3809190753044e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:21	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 2.4360273935401e+04 +/- 1.3201868095628e+03
+xc1 (center 1) = 6.8427320089520e+02 +/- 1.9341488873149e+00
+w1 (width 1) = 1.9947349844982e+02 +/- 7.2888559159729e+00
+A2 (area 2) = 1.3689985550720e+03 +/- 3.2620339786939e+02
+xc2 (center 2) = 7.9096537770589e+02 +/- 4.3607786753031e+00
+w2 (width 2) = 3.5822508458024e+01 +/- 8.2962051144331e+00
+y0 (offset) = 2.3448980587385e+02 +/- 2.0420621390546e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 3.8659529971142e+01
+R^2 = 0.6344690159486
+Adjusted R^2 = -0.2184366135046
+RMSE (Root Mean Squared Error) = 34.11062836375
+RSS (Residual Sum of Squares) = 4,654.139869479
+---------------------------------------------------------------------------------------
+Iterations = 17
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	2.4360273935401e+04	6.8427320089520e+02	1.9947349844982e+02	9.7439943757110e+01
+2	1.3689985550720e+03	7.9096537770589e+02	3.5822508458024e+01	3.0492080478766e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:21	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 4.2916694798985e+11 +/- 3.0434305218686e+14
+xc1 (center 1) = -3.9464502484286e+03 +/- 2.1676215833416e+05
+w1 (width 1) = 1.7028610149995e+03 +/- 4.0282173760773e+04
+A2 (area 2) = 3.3111537568635e+03 +/- 8.1953841200219e+02
+xc2 (center 2) = 7.2190733999833e+02 +/- 1.5732595805350e+00
+w2 (width 2) = 5.9739578603369e+01 +/- 5.7891693071813e+00
+y0 (offset) = 2.2746158808790e+02 +/- 5.2154547365107e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6.2757818116007e+01
+R^2 = 0.9802842822466
+Adjusted R^2 = 0.934280940822
+RMSE (Root Mean Squared Error) = 7.921983218614
+RSS (Residual Sum of Squares) = 251.031272464
+---------------------------------------------------------------------------------------
+Iterations = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	4.2916694798985e+11	-3.9464502484286e+03	1.7028610149995e+03	2.0108844984515e+08
+2	3.3111537568635e+03	7.2190733999833e+02	5.9739578603369e+01	4.4223921942710e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:22	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 2.3775372295551e+07 +/- 1.6932865358593e+09
+xc1 (center 1) = 9.6935366100823e+02 +/- 6.7387192152864e+01
+w1 (width 1) = 3.6248191702825e+03 +/- 8.6944520907566e+04
+A2 (area 2) = 2.9231563018272e+03 +/- 4.8462394070185e+02
+xc2 (center 2) = 7.2186560580121e+02 +/- 1.1305248678839e+00
+w2 (width 2) = 5.7355337807095e+01 +/- 4.1874872403114e+00
+y0 (offset) = 5.4753178208623e+03 +/- 2.4718996940739e+05
+--------------------------------------------------------------------------------------
+Chi^2/doF = 6.5748394823875e+01
+R^2 = -93,682.39072395
+Adjusted R^2 = -312,276.9690798
+RMSE (Root Mean Squared Error) = 17,268.67127726
+RSS (Residual Sum of Squares) = 1,192,828,030.729
+---------------------------------------------------------------------------------------
+Iterations = 1000
+Status = the iteration has not converged yet
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	2.3775372295551e+07	9.6935366100823e+02	3.6248191702825e+03	5.2333651944579e+03
+2	2.9231563018272e+03	7.2186560580121e+02	5.7355337807095e+01	4.0664764104187e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:23	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 1.6104461107444e+04 +/- 3.2317368844960e+02
+xc1 (center 1) = 6.8177157473108e+02 +/- 1.0326519849458e+00
+w1 (width 1) = 1.3733767994919e+02 +/- 2.4574794043472e+00
+A2 (area 2) = 5.5288741215818e+02 +/- 8.6673822289671e+01
+xc2 (center 2) = 8.4743973659397e+02 +/- 2.1430652701137e+00
+w2 (width 2) = 3.1945996367123e+01 +/- 5.1303614847552e+00
+y0 (offset) = 2.4239319799035e+02 +/- 7.0989771377504e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.4885708357988e+01
+R^2 = 0.9701911267635
+Adjusted R^2 = 0.9006370892118
+RMSE (Root Mean Squared Error) = 9.74092954281
+RSS (Residual Sum of Squares) = 379.542833432
+---------------------------------------------------------------------------------------
+Iterations = 16
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.6104461107444e+04	6.8177157473108e+02	1.3733767994919e+02	9.3561365551201e+01
+2	5.5288741215818e+02	8.4743973659397e+02	3.1945996367123e+01	1.3808939466269e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:24	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 1.6104556494448e+04 +/- 3.2317635931967e+02
+xc1 (center 1) = 6.8177128159148e+02 +/- 1.0326664931671e+00
+w1 (width 1) = 1.3733843836838e+02 +/- 2.4575096575079e+00
+A2 (area 2) = 5.5287048069831e+02 +/- 8.6663540040874e+01
+xc2 (center 2) = 8.4744028832413e+02 +/- 2.1427316369362e+00
+w2 (width 2) = 3.1944436756773e+01 +/- 5.1297989993572e+00
+y0 (offset) = 2.4239311171903e+02 +/- 7.0988389441730e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.4885708415630e+01
+R^2 = 0.9701911267454
+Adjusted R^2 = 0.9006370891515
+RMSE (Root Mean Squared Error) = 9.740929545769
+RSS (Residual Sum of Squares) = 379.5428336625
+---------------------------------------------------------------------------------------
+Iterations = 18
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.6104556494448e+04	6.8177128159148e+02	1.3733843836838e+02	9.3561403043126e+01
+2	5.5287048069831e+02	8.4744028832413e+02	3.1944436756773e+01	1.3809190753044e+01
+---------------------------------------------------------------------------------------
+[11.09.2016 20:24	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table1_2, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: No weighting
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.4400000000000e+02 to x = 9.1300000000000e+02
+A1 (area 1) = 5.5287048070528e+02 +/- 8.6663540043687e+01
+xc1 (center 1) = 8.4744028832400e+02 +/- 2.1427316370203e+00
+w1 (width 1) = 3.1944436757239e+01 +/- 5.1297989994926e+00
+A2 (area 2) = 1.6104556494471e+04 +/- 3.2317635932095e+02
+xc2 (center 2) = 6.8177128159144e+02 +/- 1.0326664931693e+00
+w2 (width 2) = 1.3733843836852e+02 +/- 2.4575096575134e+00
+y0 (offset) = 2.4239311171898e+02 +/- 7.0988389442245e-01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 9.4885708415630e+01
+R^2 = 0.9701911267454
+Adjusted R^2 = 0.9006370891515
+RMSE (Root Mean Squared Error) = 9.740929545769
+RSS (Residual Sum of Squares) = 379.5428336625
+---------------------------------------------------------------------------------------
+Iterations = 18
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	5.5287048070528e+02	8.4744028832400e+02	3.1944436757239e+01	1.3809190753017e+01
+2	1.6104556494471e+04	6.8177128159144e+02	1.3733843836852e+02	9.3561403043160e+01
+---------------------------------------------------------------------------------------
+
+[30.11.16 18:59	Plot: ''Graph3'']
+Lorentz Fit of dataset: Table2_9, using function: y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+Weighting Method: Instrumental, using error bars dataset: Table2_18
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.443970000000000e+02 to x = 9.131420000000001e+02
+A (area) = 3.459640029673744e+04 +/- 1.191020615478649e+04
+xc (center) = 6.796234416962373e+02 +/- 8.251263973595934e+00
+w (width) = 1.975975603888896e+02 +/- 6.184869279852574e+01
+y0 (offset) = 2.269008306174613e+02 +/- 1.068668828704256e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.274313028562065e+00
+R^2 = 0.97755546172953
+Adjusted R^2 = 0.962592436215883
+RMSE (Root Mean Squared Error) = 1.1288547420116
+RSS (Residual Sum of Squares) = 8.92019119993446
+---------------------------------------------------------------------------------------
+Iterations = 11
+Status = success
+---------------------------------------------------------------------------------------
+[30.11.16 19:03	Plot: ''Graph3'']
+Boltzmann (Sigmoidal) Fit of dataset: Table2_9, using function: A2+(A1-A2)/(1+exp((x-x0)/dx))
+Weighting Method: Instrumental, using error bars dataset: Table2_18
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.443970000000000e+02 to x = 9.131420000000001e+02
+A1 (init value) = 2.464932437093521e+02 +/- 2.071360549165505e+00
+A2 (final value) = 3.275009443790311e+02 +/- 4.876805261924622e+00
+x0 (center) = 7.718987205789991e+02 +/- 1.613622530678724e+01
+dx (time constant) = -1.225240726530249e+01 +/- 1.060985706742863e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.186533138722846e+00
+R^2 = 0.979101533261967
+Adjusted R^2 = 0.965169222103278
+RMSE (Root Mean Squared Error) = 1.08928101916945
+RSS (Residual Sum of Squares) = 8.30573197105992
+---------------------------------------------------------------------------------------
+Iterations = 37
+Status = success
+---------------------------------------------------------------------------------------
+[30.11.16 19:11	Plot: ''Graph3'']
+Gauss Fit of dataset: Table2_9, using function: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Weighting Method: Instrumental, using error bars dataset: Table2_18
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.443970000000000e+02 to x = 9.131420000000001e+02
+A (area) = 1.743166319370096e+04 +/- 3.087387474925378e+03
+xc (center) = 6.797839044188120e+02 +/- 1.008831997743630e+01
+w (width) = 1.522915375222306e+02 +/- 2.919822072059474e+01
+y0 (offset) = 2.442424925881527e+02 +/- 3.268189778043242e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.220529577100669e+00
+R^2 = 0.978502752314799
+Adjusted R^2 = 0.964171253857999
+RMSE (Root Mean Squared Error) = 1.10477580399856
+RSS (Residual Sum of Squares) = 8.54370703970469
+---------------------------------------------------------------------------------------
+Iterations = 7
+Status = success
+---------------------------------------------------------------------------------------
+[30.11.16 19:12	Plot: ''Graph3'']
+Gauss Fit(2) multi-peak of dataset: Table2_9, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: Instrumental, using error bars dataset: Table2_18
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.443970000000000e+02 to x = 9.131420000000001e+02
+A1 (area 1) = 1.564459509757440e+04 +/- 2.306288282974274e+03
+xc1 (center 1) = 6.810249695047049e+02 +/- 6.764367104830547e+00
+w1 (width 1) = 1.319022194099895e+02 +/- 2.469341022459409e+01
+A2 (area 2) = 4.165206032961598e+02 +/- 6.225888578952851e+02
+xc2 (center 2) = 8.471259510045744e+02 +/- 1.337294309293162e+01
+w2 (width 2) = 2.365788111545764e+01 +/- 5.068374912624348e+01
+y0 (offset) = 2.445814687346316e+02 +/- 2.261356157047378e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.530371836882971e+00
+R^2 = 0.984597420171342
+Adjusted R^2 = 0.948658067237808
+RMSE (Root Mean Squared Error) = 1.23708198470553
+RSS (Residual Sum of Squares) = 6.12148734753189
+---------------------------------------------------------------------------------------
+Iterations = 15
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.564459509757440e+04	6.810249695047049e+02	1.319022194099895e+02	9.463510882684551e+01
+2	4.165206032961598e+02	8.471259510045744e+02	2.365788111545764e+01	1.404755383647434e+01
+---------------------------------------------------------------------------------------
+[30.11.16 19:12	Plot: ''Graph3'']
+Lorentz Fit(2) multi-peak of dataset: Table2_9, using function: y0+2*A1/PI*w1/(4*(x-xc1)^2+w1^2)+2*A2/PI*w2/(4*(x-xc2)^2+w2^2)
+Weighting Method: Instrumental, using error bars dataset: Table2_18
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.443970000000000e+02 to x = 9.131420000000001e+02
+A1 (area 1) = 5.122426369908114e+04 +/- 4.938183375266234e+04
+xc1 (center 1) = 6.834156640769150e+02 +/- 1.471147474491521e+01
+w1 (width 1) = 2.649238673858904e+02 +/- 1.776241490236123e+02
+A2 (area 2) = 1.610583155970525e+03 +/- 6.006489373872225e+03
+xc2 (center 2) = 7.969695307817117e+02 +/- 5.585943031807874e+01
+w2 (width 2) = 3.477179872521286e+01 +/- 1.143986599081050e+02
+y0 (offset) = 2.130245322588528e+02 +/- 3.931006994297401e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.439852289086676e+00
+R^2 = 0.920315317216808
+Adjusted R^2 = 0.734384390722695
+RMSE (Root Mean Squared Error) = 2.81377374073595
+RSS (Residual Sum of Squares) = 31.6692906562206
+---------------------------------------------------------------------------------------
+Iterations = 24
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	5.122426369908114e+04	6.834156640769150e+02	2.649238673858904e+02	1.230933981810911e+02
+2	1.610583155970525e+03	7.969695307817117e+02	3.477179872521286e+01	2.948737539394404e+01
+---------------------------------------------------------------------------------------
+
+[06.12.16 16:09	Plot: ''Graph1'']
+Boltzmann (Sigmoidal) Fit of dataset: Table2_9, using function: A2+(A1-A2)/(1+exp((x-x0)/dx))
+Weighting Method: Instrumental, using error bars dataset: Table2_18
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.443970000000000e+02 to x = 9.019280000000000e+02
+A1 (init value) = 2.482168635713803e+02 +/- 2.360146646650483e+00
+A2 (final value) = 3.274045417421667e+02 +/- 4.544440772384153e+00
+x0 (center) = 7.712468947601008e+02 +/- 1.559593503618316e+01
+dx (time constant) = -1.114845392699138e+01 +/- 9.896358555151398e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.076881958825042e+00
+R^2 = 0.980148728441238
+Adjusted R^2 = 0.964267711194228
+RMSE (Root Mean Squared Error) = 1.03772923194109
+RSS (Residual Sum of Squares) = 6.46129175295026
+---------------------------------------------------------------------------------------
+Iterations = 44
+Status = success
+---------------------------------------------------------------------------------------
+[06.12.16 16:09	Plot: ''Graph1'']
+Gauss Fit of dataset: Table2_9, using function: y0+A*sqrt(2/PI)/w*exp(-2*((x-xc)/w)^2)
+Weighting Method: Instrumental, using error bars dataset: Table2_18
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.443970000000000e+02 to x = 9.019280000000000e+02
+A (area) = 1.626936362068560e+04 +/- 3.044996465464180e+03
+xc (center) = 6.803744020477360e+02 +/- 9.315838079922441e+00
+w (width) = 1.433975375340228e+02 +/- 2.967225214282494e+01
+y0 (offset) = 2.462170905411685e+02 +/- 3.609748503906827e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.280622301126261e+00
+R^2 = 0.97639297338438
+Adjusted R^2 = 0.957507352091883
+RMSE (Root Mean Squared Error) = 1.13164583732114
+RSS (Residual Sum of Squares) = 7.68373380675756
+---------------------------------------------------------------------------------------
+Iterations = 6
+Status = success
+---------------------------------------------------------------------------------------
+[06.12.16 16:09	Plot: ''Graph1'']
+Lorentz Fit of dataset: Table2_9, using function: y0+2*A/PI*w/(4*(x-xc)^2+w^2)
+Weighting Method: Instrumental, using error bars dataset: Table2_18
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.443970000000000e+02 to x = 9.019280000000000e+02
+A (area) = 3.317021970315855e+04 +/- 1.296491425321539e+04
+xc (center) = 6.796131819155004e+02 +/- 8.519622258852898e+00
+w (width) = 1.917214340016956e+02 +/- 6.792486832628622e+01
+y0 (offset) = 2.286797237725680e+02 +/- 1.226778611366863e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.452963906080455e+00
+R^2 = 0.973216023512779
+Adjusted R^2 = 0.951788842323002
+RMSE (Root Mean Squared Error) = 1.20538952462698
+RSS (Residual Sum of Squares) = 8.71778343648273
+---------------------------------------------------------------------------------------
+Iterations = 15
+Status = success
+---------------------------------------------------------------------------------------
+[06.12.16 16:09	Plot: ''Graph1'']
+Gauss Fit(2) multi-peak of dataset: Table2_9, using function: y0+sqrt(2/PI)*A1/w1*exp(-2*(x-xc1)^2/w1^2)+sqrt(2/PI)*A2/w2*exp(-2*(x-xc2)^2/w2^2)
+Weighting Method: Instrumental, using error bars dataset: Table2_18
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.443970000000000e+02 to x = 9.019280000000000e+02
+A1 (area 1) = 1.520162813167712e+04 +/- 2.312342929992742e+03
+xc1 (center 1) = 6.810574440382873e+02 +/- 6.614331995003240e+00
+w1 (width 1) = 1.294273702841440e+02 +/- 2.465459634736420e+01
+A2 (area 2) = 3.765560477144296e+02 +/- 6.501171251601495e+02
+xc2 (center 2) = 8.469380274981839e+02 +/- 1.490102156658183e+01
+w2 (width 2) = 2.239863022228313e+01 +/- 6.089464972910881e+01
+y0 (offset) = 2.458223935486387e+02 +/- 2.772614420933325e+00
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.834261639273420e+00
+R^2 = 0.983093585321661
+Adjusted R^2 = 0.923921133947474
+RMSE (Root Mean Squared Error) = 1.35434915707635
+RSS (Residual Sum of Squares) = 5.50278491782026
+---------------------------------------------------------------------------------------
+Iterations = 21
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	1.520162813167712e+04	6.810574440382873e+02	1.294273702841440e+02	9.371390578904165e+01
+2	3.765560477144296e+02	8.469380274981839e+02	2.239863022228313e+01	1.341368886251765e+01
+---------------------------------------------------------------------------------------
+[06.12.16 16:10	Plot: ''Graph1'']
+Lorentz Fit(2) multi-peak of dataset: Table2_9, using function: y0+2*A1/PI*w1/(4*(x-xc1)^2+w1^2)+2*A2/PI*w2/(4*(x-xc2)^2+w2^2)
+Weighting Method: Instrumental, using error bars dataset: Table2_18
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.443970000000000e+02 to x = 9.019280000000000e+02
+A1 (area 1) = 4.915606660782303e+04 +/- 5.458913111748108e+04
+xc1 (center 1) = 6.832394673888299e+02 +/- 1.480962473417529e+01
+w1 (width 1) = 2.581068126726799e+02 +/- 2.008191610425742e+02
+A2 (area 2) = 1.556125868805255e+03 +/- 6.322440198338068e+03
+xc2 (center 2) = 7.972422411261796e+02 +/- 5.799611352397626e+01
+w2 (width 2) = 3.412048356333533e+01 +/- 1.253565278802923e+02
+y0 (offset) = 2.150697826702018e+02 +/- 4.459673535522393e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.907327826217550e+00
+R^2 = 0.907324535058441
+Adjusted R^2 = 0.582960407762984
+RMSE (Root Mean Squared Error) = 3.17093449138695
+RSS (Residual Sum of Squares) = 30.1644766460022
+---------------------------------------------------------------------------------------
+Iterations = 32
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	4.915606660782303e+04	6.832394673888299e+02	2.581068126726799e+02	1.212433085756761e+02
+2	1.556125868805255e+03	7.972422411261796e+02	3.412048356333533e+01	2.903418688469688e+01
+---------------------------------------------------------------------------------------
+[06.12.16 16:11	Plot: ''Graph1'']
+Lorentz Fit(2) multi-peak of dataset: Table2_9, using function: y0+2*A1/PI*w1/(4*(x-xc1)^2+w1^2)+2*A2/PI*w2/(4*(x-xc2)^2+w2^2)
+Weighting Method: Instrumental, using error bars dataset: Table2_18
+Scaled Levenberg-Marquardt algorithm with tolerance = 0.0001
+From x = 6.443970000000000e+02 to x = 9.019280000000000e+02
+A1 (area 1) = 4.915666947408191e+04 +/- 5.458960275218365e+04
+xc1 (center 1) = 6.832393043141838e+02 +/- 1.480943140904729e+01
+w1 (width 1) = 2.581094385207667e+02 +/- 2.008197146075838e+02
+A2 (area 2) = 1.556145272543037e+03 +/- 6.321826020160301e+03
+xc2 (center 2) = 7.972451110115163e+02 +/- 5.800051190722075e+01
+w2 (width 2) = 3.411760580293627e+01 +/- 1.253804040057591e+02
+y0 (offset) = 2.150692616893104e+02 +/- 4.459728218988507e+01
+--------------------------------------------------------------------------------------
+Chi^2/doF = 1.907327825358169e+00
+R^2 = 0.907323746832697
+Adjusted R^2 = 0.582956860747135
+RMSE (Root Mean Squared Error) = 3.17094797611501
+RSS (Residual Sum of Squares) = 30.1647332016836
+---------------------------------------------------------------------------------------
+Iterations = 29
+Status = success
+---------------------------------------------------------------------------------------
+Peak	Area	Center	Width	Height
+---------------------------------------------------------------------------------------
+1	4.915666947408191e+04	6.832393043141838e+02	2.581094385207667e+02	1.212435620730725e+02
+2	1.556145272543037e+03	7.972451110115163e+02	3.411760580293627e+01	2.903699793295505e+01
+---------------------------------------------------------------------------------------
+</log>
