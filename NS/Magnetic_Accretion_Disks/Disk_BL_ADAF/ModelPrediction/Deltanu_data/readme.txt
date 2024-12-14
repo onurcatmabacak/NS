@@ -1,2 +1,0 @@
-Count_Rate,Delta_Nu,Lower_QPO,Upper_QPO_Frequency
-
